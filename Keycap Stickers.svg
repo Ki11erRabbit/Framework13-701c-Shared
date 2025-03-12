@@ -27,14 +27,14 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="in"
      inkscape:zoom="1.0444518"
-     inkscape:cx="460.04997"
-     inkscape:cy="348.02948"
+     inkscape:cx="779.83497"
+     inkscape:cy="424.62469"
      inkscape:window-width="2536"
      inkscape:window-height="1392"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="0"
-     inkscape:current-layer="layer3"
+     inkscape:current-layer="layer65"
      showguides="false" />
   <defs
      id="defs1">
@@ -2452,7 +2452,7 @@
          id="tspan74-2-3-1-4-5-6-8-9">Cmd</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.4;font-family:Helvetica;-inkscape-font-specification:Helvetica;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#cccccc;fill-rule:evenodd;stroke-width:10;fill-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.4;font-family:Helvetica;-inkscape-font-specification:Helvetica;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#999999;fill-rule:evenodd;stroke-width:10;fill-opacity:1"
        x="599.63928"
        y="67.858772"
        id="text77"
@@ -2463,7 +2463,7 @@
          y="67.858772">7</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.4;font-family:Helvetica;-inkscape-font-specification:Helvetica;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#cccccc;fill-rule:evenodd;stroke-width:10;fill-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.4;font-family:Helvetica;-inkscape-font-specification:Helvetica;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#999999;fill-rule:evenodd;stroke-width:10;fill-opacity:1"
        x="599.81897"
        y="144.65878"
        id="text77-6"
@@ -2474,7 +2474,7 @@
          y="144.65878">4</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.4;font-family:Helvetica;-inkscape-font-specification:Helvetica;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#cccccc;fill-rule:evenodd;stroke-width:10;fill-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.4;font-family:Helvetica;-inkscape-font-specification:Helvetica;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#999999;fill-rule:evenodd;stroke-width:10;fill-opacity:1"
        x="598.69397"
        y="221.45877"
        id="text77-6-5"
@@ -2485,17 +2485,17 @@
          id="tspan78">1</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.4;font-family:Helvetica;-inkscape-font-specification:Helvetica;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#cccccc;fill-rule:evenodd;stroke-width:10;fill-opacity:1"
-       x="676.52521"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.4;font-family:Helvetica;-inkscape-font-specification:Helvetica;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#999999;fill-opacity:1;fill-rule:evenodd;stroke-width:10"
+       x="599.72522"
        y="298.25879"
-       id="text77-6-5-3"
+       id="text77-6-5-3-9"
        inkscape:label="0 Numpad"><tspan
          sodipodi:role="line"
-         x="676.52521"
+         x="599.72522"
          y="298.25879"
-         id="tspan78-8">0</tspan></text>
+         id="tspan78-8-6">0</tspan></text>
     <rect
-       style="display:inline;fill:#cccccc;fill-opacity:1;fill-rule:evenodd;stroke:#cccccc;stroke-width:0.412436;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       style="display:inline;fill:#999999;fill-opacity:1;fill-rule:evenodd;stroke:#999999;stroke-width:0.412436;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
        id="rect24-1-8-9-0"
        width="3.0691042"
        height="3.0691042"
@@ -2504,12 +2504,12 @@
        inkscape:label=". Numpad" />
     <path
        id="rect4-6-3"
-       style="fill:#cccccc;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.307626;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
-       d="m 830.22855,290.06763 a 0.71884563,0.27046469 0 0 0 -0.71834,0.27059 v 3.10635 h -3.09299 -0.0134 a 0.27046469,0.71884563 0 0 0 -0.27057,0.71834 0.27046469,0.71884563 0 0 0 0.27059,0.71895 h 3.10635 v 3.10634 a 0.71884563,0.27046469 0 0 0 0.71833,0.27059 0.71884563,0.27046469 0 0 0 0.71895,-0.27059 v -3.10634 h 3.10635 a 0.27046469,0.71884563 0 0 0 0.27059,-0.71895 0.27046469,0.71884563 0 0 0 -0.27059,-0.71834 h -3.10635 v -3.093 -0.0133 a 0.71884563,0.27046469 0 0 0 -0.71896,-0.27064 z"
+       style="fill:#999999;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.523371;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 824.00499,284.56235 a 1.2229879,0.46014753 0 0 0 -1.22212,0.46036 v 5.2849 h -5.26218 -0.0228 a 0.46014753,1.2229879 0 0 0 -0.46033,1.22213 0.46014753,1.2229879 0 0 0 0.46036,1.22316 h 5.2849 v 5.28489 a 1.2229879,0.46014753 0 0 0 1.22211,0.46036 1.2229879,0.46014753 0 0 0 1.22317,-0.46036 v -5.28489 h 5.2849 a 0.46014753,1.2229879 0 0 0 0.46036,-1.22316 0.46014753,1.2229879 0 0 0 -0.46036,-1.22213 h -5.2849 v -5.26219 -0.0226 a 1.2229879,0.46014753 0 0 0 -1.22318,-0.46045 z"
        inkscape:label="+ Numpad" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.4;font-family:Helvetica;-inkscape-font-specification:Helvetica;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#cccccc;fill-rule:evenodd;stroke-width:10;fill-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.4;font-family:Helvetica;-inkscape-font-specification:Helvetica;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#999999;fill-rule:evenodd;stroke-width:10;fill-opacity:1"
        x="676.50958"
        y="67.858772"
        id="text77-2"
@@ -2520,7 +2520,7 @@
          y="67.858772">8</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.4;font-family:Helvetica;-inkscape-font-specification:Helvetica;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#cccccc;fill-rule:evenodd;stroke-width:10;fill-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.4;font-family:Helvetica;-inkscape-font-specification:Helvetica;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#999999;fill-rule:evenodd;stroke-width:10;fill-opacity:1"
        x="753.25488"
        y="67.858772"
        id="text77-2-6"
@@ -2531,12 +2531,12 @@
          y="67.858772">9</tspan></text>
     <path
        id="path23-7"
-       style="fill:#cccccc;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.31686;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#999999;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.31686;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
        d="m 832.22358,56.369547 a 0.59394699,0.55944029 29.677492 0 1 0.23904,0.78004 l -5.94671,10.43523 a 0.59394699,0.55944029 29.677492 0 1 -0.79293,0.19195 0.59394699,0.55944029 29.677492 0 1 -0.23904,-0.78005 0.59394699,0.55944029 29.677492 0 1 0.0135,-0.0237 l 5.93336,-10.41175 a 0.59394699,0.55944029 29.677492 0 1 0.79294,-0.19195 z"
        inkscape:label="/ Numpad" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.4;font-family:Helvetica;-inkscape-font-specification:Helvetica;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#cccccc;fill-rule:evenodd;stroke-width:10;fill-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.4;font-family:Helvetica;-inkscape-font-specification:Helvetica;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#999999;fill-rule:evenodd;stroke-width:10;fill-opacity:1"
        x="676.50958"
        y="144.65878"
        id="text77-2-7-97"
@@ -2547,7 +2547,7 @@
          y="144.65878">5</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.4;font-family:Helvetica;-inkscape-font-specification:Helvetica;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#cccccc;fill-rule:evenodd;stroke-width:10;fill-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.4;font-family:Helvetica;-inkscape-font-specification:Helvetica;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#999999;fill-rule:evenodd;stroke-width:10;fill-opacity:1"
        x="753.25488"
        y="144.65878"
        id="text77-2-6-6"
@@ -2558,14 +2558,14 @@
          y="144.65878">6</tspan></text>
     <path
        id="rect69-8"
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#cccccc;stroke-width:0.845353;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
-       d="m 828.60071,133.54326 v 1.93033 l -1.65469,-1.00237 -0.009,0.015 1.65261,1.00112 -1.66301,1.00779 0.009,0.015 1.6655,-1.00902 v 2.11368 h 0.0174 v -2.10993 l 1.80104,1.09093 0.009,-0.015 -1.80478,-1.09344 1.79396,-1.08718 -0.009,-0.015 -1.79022,1.08469 v -1.92659 z"
-       inkscape:transform-center-x="-1.0701595"
-       inkscape:transform-center-y="-4.0251087"
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#999999;stroke-width:2.00898;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+       d="m 825.26352,132.86227 v 4.58743 l -3.93236,-2.38213 -0.0214,0.0356 3.92742,2.37916 -3.95214,2.39502 0.0214,0.0356 3.95806,-2.39793 v 5.02316 h 0.0413 v -5.01425 l 4.28017,2.59259 0.0214,-0.0356 -4.28906,-2.59856 4.26334,-2.58368 -0.0214,-0.0357 -4.25446,2.57776 v -4.57854 z"
+       inkscape:transform-center-x="-2.5432081"
+       inkscape:transform-center-y="-9.5657393"
        inkscape:label="* Numpad" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.4;font-family:Helvetica;-inkscape-font-specification:Helvetica;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#cccccc;fill-rule:evenodd;stroke-width:10;fill-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.4;font-family:Helvetica;-inkscape-font-specification:Helvetica;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#999999;fill-rule:evenodd;stroke-width:10;fill-opacity:1"
        x="676.50958"
        y="221.45879"
        id="text77-2-7-9"
@@ -2576,7 +2576,7 @@
          y="221.45879">2</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.4;font-family:Helvetica;-inkscape-font-specification:Helvetica;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#cccccc;fill-rule:evenodd;stroke-width:10;fill-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.4;font-family:Helvetica;-inkscape-font-specification:Helvetica;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#999999;fill-rule:evenodd;stroke-width:10;fill-opacity:1"
        x="753.44238"
        y="221.45877"
        id="text77-2-6-6-1"
@@ -2587,8 +2587,8 @@
          y="221.45877">3</tspan></text>
     <path
        id="path4-9"
-       style="fill:#cccccc;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.240431;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
-       d="m 825.87922,216.26347 a 0.16348389,0.72645378 0 0 0 -0.16357,0.72646 0.16348389,0.72645378 0 0 0 0.16357,0.72645 h 4.62403 a 0.16348389,0.72645378 0 0 0 0.16357,-0.72645 0.16348389,0.72645378 0 0 0 -0.16357,-0.72646 h -4.61593 z"
+       style="fill:#999999;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.565887;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 819.39855,214.29676 a 0.38478153,1.7098076 0 0 0 -0.38498,1.70982 0.38478153,1.7098076 0 0 0 0.38498,1.7098 h 10.88329 a 0.38478153,1.7098076 0 0 0 0.38498,-1.7098 0.38478153,1.7098076 0 0 0 -0.38498,-1.70982 h -10.86422 z"
        inkscape:label="- Numpad" />
     <text
        xml:space="preserve"
@@ -4551,7 +4551,7 @@
      inkscape:groupmode="layer"
      id="layer64"
      inkscape:label="Dividers"
-     style="display:none">
+     style="display:inline">
     <path
        id="rect5"
        style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.52193;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
