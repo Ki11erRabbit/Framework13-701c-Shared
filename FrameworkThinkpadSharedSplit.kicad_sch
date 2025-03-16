@@ -5,297 +5,6 @@
 	(uuid "0d5c4543-d5fb-491b-bc04-65254edf3078")
 	(paper "A3")
 	(lib_symbols
-		(symbol "Connector:Conn_01x05_Socket"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x05_Socket"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x05, script generated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x05_Socket_1_1"
-				(polyline
-					(pts
-						(xy -1.27 5.08) (xy -0.508 5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 2.54) (xy -0.508 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -0.508 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy -0.508 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -5.08) (xy -0.508 -5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 4.572)
-					(mid -0.5058 5.08)
-					(end 0 5.588)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 2.032)
-					(mid -0.5058 2.54)
-					(end 0 3.048)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -0.508)
-					(mid -0.5058 0)
-					(end 0 0.508)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -3.048)
-					(mid -0.5058 -2.54)
-					(end 0 -2.032)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -5.588)
-					(mid -0.5058 -5.08)
-					(end 0 -4.572)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 5.08 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:Conn_01x06_Socket"
 			(pin_names
 				(offset 1.016)
@@ -2926,10 +2635,28 @@
 		(uuid "f9ca71d5-6504-4139-8dcf-08029dab022c")
 	)
 	(junction
+		(at 223.52 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "00f1d7a5-d318-4da1-a0c8-4e20d227fef3")
+	)
+	(junction
 		(at 125.73 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0124a09e-fd29-4893-8943-178dd0efe33c")
+	)
+	(junction
+		(at 234.95 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "068d1735-9e1c-4c48-944e-ed826d50c47c")
+	)
+	(junction
+		(at 152.4 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "08cb49ed-1022-4c3d-b9fc-caced2ab54e6")
 	)
 	(junction
 		(at 240.03 52.07)
@@ -2942,6 +2669,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0ce56655-ddec-454f-afb0-06f5fccfbc05")
+	)
+	(junction
+		(at 240.03 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0d582f5c-382b-4746-8134-867df072580e")
 	)
 	(junction
 		(at 130.81 90.17)
@@ -2960,6 +2693,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0ebe03a1-ac29-491c-ae11-106f57ee3814")
+	)
+	(junction
+		(at 48.26 223.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0ed6f559-47c6-4004-ab5b-0a636f97b2ed")
 	)
 	(junction
 		(at 234.95 39.37)
@@ -3022,6 +2761,24 @@
 		(uuid "1956937c-0117-4f00-a157-4d3a88f5d63a")
 	)
 	(junction
+		(at 48.26 227.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1c7036f9-7a97-467d-99bc-29464ff1bc5b")
+	)
+	(junction
+		(at 96.52 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1e359c7d-a47a-4fe6-bb1d-0689169566a8")
+	)
+	(junction
+		(at 85.09 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1f7069d8-4411-4057-a2ca-b9da6b844690")
+	)
+	(junction
 		(at 200.66 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3032,6 +2789,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2247bf2f-ad01-4bda-b1d2-94f918712608")
+	)
+	(junction
+		(at 102.87 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "22fe4ecd-5025-48f4-a911-08b364d06c98")
 	)
 	(junction
 		(at 96.52 52.07)
@@ -3118,6 +2881,12 @@
 		(uuid "39e50060-7737-4f75-8c37-48d40cad8b99")
 	)
 	(junction
+		(at 228.6 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3d4ffb57-5e36-4c2c-acac-47a40e2514cb")
+	)
+	(junction
 		(at 142.24 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3140,6 +2909,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "44c1416d-d2f6-41f6-aa1c-555f81118c93")
+	)
+	(junction
+		(at 119.38 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4940d428-9f14-4015-bad1-15e18dca77be")
+	)
+	(junction
+		(at 147.32 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4da6ec38-d6e9-451d-bd26-707902fa8548")
 	)
 	(junction
 		(at 240.03 90.17)
@@ -3196,6 +2977,12 @@
 		(uuid "5a6d3246-e1c3-4c48-9128-1bee34a21a18")
 	)
 	(junction
+		(at 246.38 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5f0b9e53-8281-468c-b2a2-f3bc55e76870")
+	)
+	(junction
 		(at 137.16 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3238,6 +3025,12 @@
 		(uuid "70705142-94ac-4090-a573-2eda5daa868f")
 	)
 	(junction
+		(at 130.81 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "726b377f-e057-4a80-95eb-1b0179d66f34")
+	)
+	(junction
 		(at 107.95 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3248,6 +3041,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "778b31f1-e5c7-46b3-aa10-a0c2d7f32aed")
+	)
+	(junction
+		(at 137.16 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "788b1d61-78dc-4a3c-a242-c671d65de688")
+	)
+	(junction
+		(at 257.81 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "78b58065-a413-4de6-81af-1cc2f43083ed")
 	)
 	(junction
 		(at 137.16 96.52)
@@ -3268,6 +3073,12 @@
 		(uuid "7e74c7f0-de6f-460e-820f-93f12ca42a7a")
 	)
 	(junction
+		(at 200.66 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f0967de-e8ec-40a3-ab68-3d7a36c49b69")
+	)
+	(junction
 		(at 267.97 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3280,6 +3091,30 @@
 		(uuid "8063e03c-16cc-40ff-bc34-a1effddd2383")
 	)
 	(junction
+		(at 142.24 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "80cb620a-ea1d-4a7d-9d8f-2cbffd699db1")
+	)
+	(junction
+		(at 114.3 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "83e26a0f-1264-4646-8a5e-0181d69bdcf7")
+	)
+	(junction
+		(at 91.44 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "84f0c8e9-8216-4296-b569-d11edf8ef3e1")
+	)
+	(junction
+		(at 107.95 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "86910d81-d4ab-4d84-8574-34cea2d626df")
+	)
+	(junction
 		(at 125.73 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3290,6 +3125,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "880c0795-b263-4dc7-9947-3f1d9097ace0")
+	)
+	(junction
+		(at 251.46 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "889fd900-3757-4aa8-af23-20d46784ee76")
 	)
 	(junction
 		(at 267.97 58.42)
@@ -3376,10 +3217,28 @@
 		(uuid "ac5c0bc6-3c2c-4775-b290-7c2d1cdae307")
 	)
 	(junction
+		(at 205.74 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ac7f76e7-dac1-428e-be9b-7eba073dca79")
+	)
+	(junction
+		(at 262.89 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af45e255-62b5-4722-9485-862089cbaa65")
+	)
+	(junction
 		(at 137.16 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b058132f-21a0-4cd0-acac-f1d674a278b1")
+	)
+	(junction
+		(at 80.01 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b1131122-f879-4841-8b1a-9c3a0b79708f")
 	)
 	(junction
 		(at 107.95 90.17)
@@ -3412,6 +3271,18 @@
 		(uuid "bb7b21a0-c86f-4612-a8b6-5d47b83023ac")
 	)
 	(junction
+		(at 40.64 227.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bef5114b-ad71-42d3-bb69-890bd91dc743")
+	)
+	(junction
+		(at 125.73 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bfb1567b-ab29-47dc-8080-315ff946b5da")
+	)
+	(junction
 		(at 217.17 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3428,6 +3299,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c3c7e257-2610-4a56-8565-91da52141318")
+	)
+	(junction
+		(at 212.09 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c4e2029e-645b-4dab-9b8d-4dbcf1b7a008")
 	)
 	(junction
 		(at 246.38 77.47)
@@ -3520,6 +3397,12 @@
 		(uuid "e7425eb1-1970-4534-89b5-5229586556f7")
 	)
 	(junction
+		(at 38.1 223.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ecedee55-8fe0-44ca-a6c4-ed97861d570f")
+	)
+	(junction
 		(at 80.01 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3556,6 +3439,12 @@
 		(uuid "f39d915a-8d99-4ac4-83ad-149b891462e2")
 	)
 	(junction
+		(at 217.17 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f3ac9908-25e0-4fcb-aa12-fa521d2355fd")
+	)
+	(junction
 		(at 217.17 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3579,6 +3468,12 @@
 		(color 0 0 0 0)
 		(uuid "fca67720-d9d6-4a8c-a11a-4fda23f03a0a")
 	)
+	(junction
+		(at 267.97 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fcd9a036-0c92-4ab6-8082-3d034c1cf0c2")
+	)
 	(wire
 		(pts
 			(xy 223.52 96.52) (xy 223.52 115.57)
@@ -3591,7 +3486,17 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 201.93) (xy 105.41 201.93)
+			(xy 40.64 222.25) (xy 40.64 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "015dcf19-01a4-46db-b62c-148f52e937c1")
+	)
+	(wire
+		(pts
+			(xy 74.93 228.6) (xy 106.68 228.6)
 		)
 		(stroke
 			(width 0)
@@ -3608,6 +3513,16 @@
 			(type default)
 		)
 		(uuid "0271e38b-0f3d-42bb-ba30-70e89e9aeba2")
+	)
+	(wire
+		(pts
+			(xy 200.66 115.57) (xy 200.66 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02a93a92-0c0d-4f2f-8181-13d134e6fd31")
 	)
 	(wire
 		(pts
@@ -3631,6 +3546,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 115.57) (xy 147.32 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03e50a35-54fb-4110-ab91-3a94be2ca1bd")
+	)
+	(wire
+		(pts
 			(xy 257.81 58.42) (xy 257.81 77.47)
 		)
 		(stroke
@@ -3638,6 +3563,16 @@
 			(type default)
 		)
 		(uuid "0556a3c8-cffd-4e8a-89f6-e428f3fea146")
+	)
+	(wire
+		(pts
+			(xy 195.58 50.8) (xy 187.96 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0656e07a-f38b-4982-b264-de086393271d")
 	)
 	(wire
 		(pts
@@ -3711,6 +3646,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 87.63) (xy 194.31 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d8d885d-5c78-4c16-8baa-fc3e3f866eb5")
+	)
+	(wire
+		(pts
 			(xy 130.81 128.27) (xy 142.24 128.27)
 		)
 		(stroke
@@ -3758,6 +3703,16 @@
 			(type default)
 		)
 		(uuid "15b048f9-517a-4e8f-b98b-8ca46d0b42c4")
+	)
+	(wire
+		(pts
+			(xy 43.18 234.95) (xy 48.26 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16e5345a-902b-43d9-b27c-e98ee6dfe765")
 	)
 	(wire
 		(pts
@@ -3841,6 +3796,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 223.52) (xy 48.26 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f2ebc8b-79d6-4b3a-8ebb-e37510b8d488")
+	)
+	(wire
+		(pts
 			(xy 212.09 35.56) (xy 212.09 39.37)
 		)
 		(stroke
@@ -3901,7 +3866,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 207.01) (xy 105.41 207.01)
+			(xy 74.93 233.68) (xy 106.68 233.68)
 		)
 		(stroke
 			(width 0)
@@ -3988,6 +3953,16 @@
 			(type default)
 		)
 		(uuid "2cc56fce-d007-4e7a-8bd3-4277c4f38635")
+	)
+	(wire
+		(pts
+			(xy 48.26 234.95) (xy 48.26 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d0c1d9d-b9c1-4afd-b1bb-41e2e82fa7a1")
 	)
 	(wire
 		(pts
@@ -4161,6 +4136,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 128.27) (xy 130.81 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3778a136-5a35-4f3e-9fea-04c22a5cc1a8")
+	)
+	(wire
+		(pts
 			(xy 119.38 71.12) (xy 130.81 71.12)
 		)
 		(stroke
@@ -4211,6 +4196,16 @@
 	)
 	(wire
 		(pts
+			(xy 212.09 115.57) (xy 212.09 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e852b54-69b9-4c08-b5a3-2435943f1278")
+	)
+	(wire
+		(pts
 			(xy 251.46 90.17) (xy 262.89 90.17)
 		)
 		(stroke
@@ -4251,6 +4246,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 68.58) (xy 58.42 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48f79260-d9b3-481b-b032-f3e8af132bcc")
+	)
+	(wire
+		(pts
 			(xy 246.38 39.37) (xy 246.38 58.42)
 		)
 		(stroke
@@ -4268,6 +4273,16 @@
 			(type default)
 		)
 		(uuid "4a693ef4-7989-47ee-8009-ae62d10debeb")
+	)
+	(wire
+		(pts
+			(xy 125.73 115.57) (xy 125.73 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bb1ceca-7939-4fc3-9456-342d6f0814e2")
 	)
 	(wire
 		(pts
@@ -4341,6 +4356,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 223.52) (xy 45.72 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "593579da-3815-42c9-98cb-f4899647a6be")
+	)
+	(wire
+		(pts
 			(xy 205.74 52.07) (xy 217.17 52.07)
 		)
 		(stroke
@@ -4401,6 +4426,16 @@
 	)
 	(wire
 		(pts
+			(xy 257.81 96.52) (xy 257.81 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68c3ef8e-ce35-4557-85d6-3a5667d2dff2")
+	)
+	(wire
+		(pts
 			(xy 147.32 21.59) (xy 147.32 39.37)
 		)
 		(stroke
@@ -4428,6 +4463,26 @@
 			(type default)
 		)
 		(uuid "696b091d-2a84-4503-a596-9c3e054084f7")
+	)
+	(wire
+		(pts
+			(xy 40.64 227.33) (xy 40.64 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bdfad33-00a1-45e6-8c81-a42c9dbd7e15")
+	)
+	(wire
+		(pts
+			(xy 228.6 128.27) (xy 240.03 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f4ba355-67c1-48b3-80be-82e568f08d69")
 	)
 	(wire
 		(pts
@@ -4481,6 +4536,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 96.52) (xy 114.3 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7399ed27-0ff6-44e7-8d68-009f9dedf4eb")
+	)
+	(wire
+		(pts
 			(xy 217.17 90.17) (xy 228.6 90.17)
 		)
 		(stroke
@@ -4528,6 +4593,16 @@
 			(type default)
 		)
 		(uuid "7855c9ef-0058-4a20-9a1f-bf7fc2f85ca7")
+	)
+	(wire
+		(pts
+			(xy 38.1 223.52) (xy 38.1 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "789d959d-9e59-40e6-97d2-af1745fcb6fe")
 	)
 	(wire
 		(pts
@@ -4621,6 +4696,26 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 96.52) (xy 246.38 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "837d926c-736c-4bae-b30e-c680f5d04517")
+	)
+	(wire
+		(pts
+			(xy 85.09 128.27) (xy 96.52 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85934765-bb29-4c5b-be0e-78709011f1ac")
+	)
+	(wire
+		(pts
 			(xy 267.97 58.42) (xy 267.97 77.47)
 		)
 		(stroke
@@ -4651,6 +4746,26 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 96.52) (xy 102.87 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ad4154c-f83b-41bf-b1f1-cf1b95e07804")
+	)
+	(wire
+		(pts
+			(xy 194.31 147.32) (xy 205.74 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b9ff79a-2568-4037-996b-f395a5f40c6e")
+	)
+	(wire
+		(pts
 			(xy 76.2 29.21) (xy 114.3 29.21)
 		)
 		(stroke
@@ -4668,6 +4783,16 @@
 			(type default)
 		)
 		(uuid "8e3a0ccd-71a0-44a5-bb3a-f5e2cf924d2e")
+	)
+	(wire
+		(pts
+			(xy 234.95 96.52) (xy 234.95 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8eaa5c59-190f-41c5-a3a4-26132124834d")
 	)
 	(wire
 		(pts
@@ -4698,6 +4823,26 @@
 			(type default)
 		)
 		(uuid "9103cc78-79f0-4061-a89c-16160675ce50")
+	)
+	(wire
+		(pts
+			(xy 48.26 220.98) (xy 48.26 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "950782d9-494e-4861-a2e8-7da240e741c3")
+	)
+	(wire
+		(pts
+			(xy 187.96 50.8) (xy 187.96 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "959a1b00-2b3c-4885-b1ff-f1702a2fca5e")
 	)
 	(wire
 		(pts
@@ -4811,6 +4956,46 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 147.32) (xy 130.81 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a08bf025-9721-44f5-b960-74fe76aca093")
+	)
+	(wire
+		(pts
+			(xy 267.97 96.52) (xy 267.97 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1252af6-b1ad-45a4-9d67-43e0b97d6afb")
+	)
+	(wire
+		(pts
+			(xy 142.24 147.32) (xy 152.4 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2c58289-fcb7-4acc-8d4f-78b1336dfb11")
+	)
+	(wire
+		(pts
+			(xy 205.74 147.32) (xy 217.17 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5f99fd8-9846-44a3-a92b-54292f94476f")
+	)
+	(wire
+		(pts
 			(xy 262.89 160.02) (xy 288.29 160.02)
 		)
 		(stroke
@@ -4901,6 +5086,16 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 128.27) (xy 251.46 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b11f401a-7a33-45b5-b2f2-0c456746070a")
+	)
+	(wire
+		(pts
 			(xy 96.52 52.07) (xy 107.95 52.07)
 		)
 		(stroke
@@ -4908,6 +5103,16 @@
 			(type default)
 		)
 		(uuid "b1e165e3-f1c7-4259-9d86-bd6e96fc884c")
+	)
+	(wire
+		(pts
+			(xy 91.44 96.52) (xy 91.44 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1f1353a-ee99-4c39-8291-89b4318d44cc")
 	)
 	(wire
 		(pts
@@ -4958,6 +5163,26 @@
 			(type default)
 		)
 		(uuid "b58c3bdb-0c27-4e93-9a61-c19ef8e60bb9")
+	)
+	(wire
+		(pts
+			(xy 130.81 147.32) (xy 142.24 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b620b8b0-4ec2-45dd-874c-1d345a990850")
+	)
+	(wire
+		(pts
+			(xy 251.46 128.27) (xy 262.89 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b696a237-e629-4df3-b1ff-9ee896046f92")
 	)
 	(wire
 		(pts
@@ -5121,7 +5346,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 128.27) (xy 130.81 128.27)
+			(xy 64.77 128.27) (xy 85.09 128.27)
 		)
 		(stroke
 			(width 0)
@@ -5181,6 +5406,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 147.32) (xy 161.29 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d47a1d61-9ea0-408d-a045-2f4386cf5c07")
+	)
+	(wire
+		(pts
 			(xy 119.38 109.22) (xy 130.81 109.22)
 		)
 		(stroke
@@ -5198,6 +5433,16 @@
 			(type default)
 		)
 		(uuid "d62b82f4-f5e0-42d0-8880-67381e04119f")
+	)
+	(wire
+		(pts
+			(xy 80.01 96.52) (xy 80.01 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8dc3e9d-405b-45d1-b956-a1320935a4e8")
 	)
 	(wire
 		(pts
@@ -5221,6 +5466,26 @@
 	)
 	(wire
 		(pts
+			(xy 194.31 87.63) (xy 194.31 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9d0fa28-962e-40ed-90f1-5c5b5f793703")
+	)
+	(wire
+		(pts
+			(xy 107.95 128.27) (xy 119.38 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da12ec55-b942-4d6b-8df4-ed4cc7a74a69")
+	)
+	(wire
+		(pts
 			(xy 154.94 60.96) (xy 161.29 60.96)
 		)
 		(stroke
@@ -5238,6 +5503,26 @@
 			(type default)
 		)
 		(uuid "dcfd6500-8d77-4e5b-b997-87bc0044b500")
+	)
+	(wire
+		(pts
+			(xy 152.4 147.32) (xy 161.29 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd0c36a8-629b-432a-b286-df0d591680d0")
+	)
+	(wire
+		(pts
+			(xy 195.58 53.34) (xy 195.58 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "deac1427-17b1-426e-91ee-2a2cb876d3de")
 	)
 	(wire
 		(pts
@@ -5261,7 +5546,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 214.63) (xy 105.41 214.63)
+			(xy 74.93 241.3) (xy 106.68 241.3)
 		)
 		(stroke
 			(width 0)
@@ -5321,6 +5606,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 222.25) (xy 38.1 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e78dab3d-ef8f-49cc-a97e-934e065d4915")
+	)
+	(wire
+		(pts
 			(xy 91.44 34.29) (xy 91.44 39.37)
 		)
 		(stroke
@@ -5341,6 +5636,16 @@
 	)
 	(wire
 		(pts
+			(xy 262.89 128.27) (xy 273.05 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e99f70bd-8cab-4684-8030-d3c9554c86cf")
+	)
+	(wire
+		(pts
 			(xy 80.01 77.47) (xy 80.01 96.52)
 		)
 		(stroke
@@ -5351,7 +5656,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 212.09) (xy 105.41 212.09)
+			(xy 74.93 238.76) (xy 106.68 238.76)
 		)
 		(stroke
 			(width 0)
@@ -5378,6 +5683,36 @@
 			(type default)
 		)
 		(uuid "ef182270-9a97-4398-8972-a5addc135241")
+	)
+	(wire
+		(pts
+			(xy 96.52 128.27) (xy 107.95 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef987b06-8c9b-456b-8f0d-0e25a8f835f4")
+	)
+	(wire
+		(pts
+			(xy 223.52 115.57) (xy 223.52 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efebd576-bb79-41a4-973f-8d87ba71df72")
+	)
+	(wire
+		(pts
+			(xy 137.16 115.57) (xy 137.16 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f06ec3bb-a714-4d7e-aee7-97daaa28056e")
 	)
 	(wire
 		(pts
@@ -5461,6 +5796,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 147.32) (xy 228.6 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8303e40-fd0e-49e1-a96f-eb685dfbd01e")
+	)
+	(wire
+		(pts
 			(xy 223.52 33.02) (xy 223.52 39.37)
 		)
 		(stroke
@@ -5481,7 +5826,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 204.47) (xy 105.41 204.47)
+			(xy 74.93 231.14) (xy 106.68 231.14)
 		)
 		(stroke
 			(width 0)
@@ -5511,7 +5856,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 209.55) (xy 105.41 209.55)
+			(xy 74.93 236.22) (xy 106.68 236.22)
 		)
 		(stroke
 			(width 0)
@@ -5561,7 +5906,7 @@
 	)
 	(global_label "Drive LED"
 		(shape input)
-		(at 110.49 156.21 180)
+		(at 132.08 182.88 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5571,7 +5916,7 @@
 		)
 		(uuid "0699030c-7bd9-4985-bebd-a455e614eed0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 98.3729 156.21 0)
+			(at 119.9629 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5583,7 +5928,7 @@
 	)
 	(global_label "Col 0"
 		(shape input)
-		(at 39.37 140.97 180)
+		(at 40.64 195.58 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5593,7 +5938,7 @@
 		)
 		(uuid "0c6ccf48-a94e-4021-94fe-a22aa355a428")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 31.1235 140.97 0)
+			(at 32.3935 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5649,7 +5994,7 @@
 	)
 	(global_label "Trackpoint Clock"
 		(shape input)
-		(at 39.37 208.28 90)
+		(at 40.64 222.25 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5659,7 +6004,7 @@
 		)
 		(uuid "1723abab-8d6a-48da-ab1a-2cd06bbebf98")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 39.37 189.3293 90)
+			(at 40.64 203.2993 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5671,7 +6016,7 @@
 	)
 	(global_label "Row 4"
 		(shape input)
-		(at 41.91 55.88 180)
+		(at 41.91 58.42 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5680,6 +6025,28 @@
 			(justify right)
 		)
 		(uuid "19b38e22-269b-4fa6-9520-3bacae56bd71")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 32.9982 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Row 5"
+		(shape input)
+		(at 41.91 55.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1ab5f723-7d6e-4636-814c-c0fec615f85f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 32.9982 55.88 0)
 			(effects
@@ -5715,7 +6082,7 @@
 	)
 	(global_label "Row 2"
 		(shape input)
-		(at 77.47 158.75 0)
+		(at 54.61 158.75 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5725,7 +6092,7 @@
 		)
 		(uuid "2149f458-1f50-4848-9c5b-682588da4ecf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 86.3818 158.75 0)
+			(at 54.61 149.8382 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5737,29 +6104,29 @@
 	)
 	(global_label "Trackpoint Clock"
 		(shape input)
-		(at 39.37 158.75 180)
+		(at 78.74 190.5 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "293c74d1-76ce-4646-8a36-a92fb44cc0e1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 20.4193 158.75 0)
+			(at 97.6907 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "Numpad Led"
 		(shape input)
-		(at 77.47 168.91 0)
+		(at 78.74 182.88 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5769,7 +6136,7 @@
 		)
 		(uuid "2ab24786-ed2b-4d9d-9b33-1f2773998936")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 92.3083 168.91 0)
+			(at 93.5783 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5803,29 +6170,29 @@
 	)
 	(global_label "Col 8"
 		(shape input)
-		(at 53.34 175.26 270)
+		(at 78.74 177.8 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "3a106785-68b4-4e5a-847e-ced87662c34c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 53.34 183.5065 90)
+			(at 86.9865 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "Col 1"
 		(shape input)
-		(at 39.37 143.51 180)
+		(at 40.64 170.18 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5835,7 +6202,7 @@
 		)
 		(uuid "3e943a03-4ef4-4bad-8df7-5c39f6db907a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 31.1235 143.51 0)
+			(at 32.3935 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5847,7 +6214,7 @@
 	)
 	(global_label "Trackpoint PWR"
 		(shape input)
-		(at 41.91 208.28 90)
+		(at 48.26 220.98 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5857,7 +6224,7 @@
 		)
 		(uuid "3eb55737-36da-454a-bf71-07d60714d5f8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 41.91 190.5388 90)
+			(at 48.26 203.2388 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5869,7 +6236,7 @@
 	)
 	(global_label "Row 3"
 		(shape input)
-		(at 77.47 161.29 0)
+		(at 57.15 158.75 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5879,7 +6246,7 @@
 		)
 		(uuid "3ef1e410-a43a-429c-ba18-a515211484f6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 86.3818 161.29 0)
+			(at 57.15 149.8382 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5913,7 +6280,7 @@
 	)
 	(global_label "Col 2"
 		(shape input)
-		(at 39.37 151.13 180)
+		(at 40.64 172.72 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5923,7 +6290,7 @@
 		)
 		(uuid "4488e6f4-fb6f-4553-bd78-e7a3127d181a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 31.1235 151.13 0)
+			(at 32.3935 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5935,7 +6302,7 @@
 	)
 	(global_label "Row 4"
 		(shape input)
-		(at 77.47 163.83 0)
+		(at 59.69 158.75 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5945,7 +6312,7 @@
 		)
 		(uuid "49e40f2f-4ef7-478a-ac06-1458877a33f5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 86.3818 163.83 0)
+			(at 59.69 149.8382 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5957,29 +6324,51 @@
 	)
 	(global_label "Col 7"
 		(shape input)
-		(at 39.37 168.91 180)
+		(at 78.74 180.34 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "4d3f2a18-52c6-46f4-ad9c-fe49478660b4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 31.1235 168.91 0)
+			(at 86.9865 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Row 5"
+		(shape input)
+		(at 62.23 158.75 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4dccb14f-c3d3-42ca-80b9-d80505eb8fa9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 62.23 149.8382 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "Trackpoint GND"
 		(shape input)
-		(at 34.29 208.28 90)
+		(at 35.56 234.95 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5989,7 +6378,7 @@
 		)
 		(uuid "511e6d47-8492-4b6a-8078-2c5a421bff4c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 34.29 190.6597 90)
+			(at 35.56 217.3297 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6001,22 +6390,22 @@
 	)
 	(global_label "Row 1"
 		(shape input)
-		(at 77.47 156.21 0)
+		(at 40.64 165.1 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "5271c721-f932-4934-83b1-1bd00ff3f9c5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 86.3818 156.21 0)
+			(at 31.7282 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -6045,22 +6434,22 @@
 	)
 	(global_label "Trackpoint Data"
 		(shape input)
-		(at 39.37 156.21 180)
+		(at 78.74 193.04 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "5f11a174-66af-4cf2-a582-0a68090ed1e7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 21.3265 156.21 0)
+			(at 96.7835 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -6089,7 +6478,7 @@
 	)
 	(global_label "Trackpoint GND"
 		(shape input)
-		(at 77.47 143.51 0)
+		(at 78.74 187.96 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6099,7 +6488,7 @@
 		)
 		(uuid "6b776bd9-4a24-49c6-9f70-7566354734b8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.0903 143.51 0)
+			(at 96.3603 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6111,7 +6500,7 @@
 	)
 	(global_label "Col 6"
 		(shape input)
-		(at 39.37 166.37 180)
+		(at 40.64 182.88 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6121,7 +6510,7 @@
 		)
 		(uuid "6cb0b806-e2b3-416c-899e-fd1fa1c5a2a9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 31.1235 166.37 0)
+			(at 32.3935 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6133,7 +6522,7 @@
 	)
 	(global_label "Row 3"
 		(shape input)
-		(at 41.91 58.42 180)
+		(at 41.91 60.96 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6143,7 +6532,7 @@
 		)
 		(uuid "702227ae-defb-4ffb-9770-803db6f233be")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 32.9982 58.42 0)
+			(at 32.9982 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6177,29 +6566,29 @@
 	)
 	(global_label "Power LED GND"
 		(shape input)
-		(at 39.37 146.05 180)
+		(at 78.74 185.42 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "806e15bf-e679-4c20-8f26-72bb22195517")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 21.5077 146.05 0)
+			(at 96.6023 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "Col 13"
 		(shape input)
-		(at 77.47 151.13 0)
+		(at 78.74 165.1 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6209,7 +6598,7 @@
 		)
 		(uuid "8ba22a5b-f682-4615-8b06-97c50def3a40")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 86.926 151.13 0)
+			(at 88.196 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6265,7 +6654,7 @@
 	)
 	(global_label "Battery LED"
 		(shape input)
-		(at 110.49 158.75 180)
+		(at 132.08 185.42 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6275,7 +6664,7 @@
 		)
 		(uuid "947beda0-09c0-49f1-a790-d01164a4ff0c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 96.3773 158.75 0)
+			(at 117.9673 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6287,29 +6676,29 @@
 	)
 	(global_label "LED PWR"
 		(shape input)
-		(at 77.47 140.97 0)
+		(at 132.08 187.96 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "94bedc78-eb59-4492-95b2-1c9e3fde3689")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.8613 140.97 0)
+			(at 120.6887 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "Col 3"
 		(shape input)
-		(at 39.37 153.67 180)
+		(at 40.64 175.26 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6319,7 +6708,7 @@
 		)
 		(uuid "959e6a78-c708-4b06-a496-a9f39bc9bf35")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 31.1235 153.67 0)
+			(at 32.3935 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6353,7 +6742,7 @@
 	)
 	(global_label "Col 4"
 		(shape input)
-		(at 39.37 161.29 180)
+		(at 40.64 177.8 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6363,7 +6752,7 @@
 		)
 		(uuid "a537bd41-8d4e-437a-a3e6-ed20cf2bf044")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 31.1235 161.29 0)
+			(at 32.3935 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6397,7 +6786,7 @@
 	)
 	(global_label "Trackpoint Data"
 		(shape input)
-		(at 36.83 208.28 90)
+		(at 38.1 222.25 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6407,7 +6796,7 @@
 		)
 		(uuid "a84ae42f-0f14-45e7-8b08-2e4abfc482ef")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 36.83 190.2365 90)
+			(at 38.1 204.2065 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6463,29 +6852,7 @@
 	)
 	(global_label "Col 10"
 		(shape input)
-		(at 58.42 175.26 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b2b65fc2-d42b-43f5-a360-de58b64d1f4a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 58.42 184.716 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Trackpoint PWR"
-		(shape input)
-		(at 77.47 148.59 0)
+		(at 78.74 172.72 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6493,9 +6860,9 @@
 			)
 			(justify left)
 		)
-		(uuid "b453b16a-80c1-4315-bd47-4019ff4c95b5")
+		(uuid "b2b65fc2-d42b-43f5-a360-de58b64d1f4a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.2112 148.59 0)
+			(at 88.196 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6505,9 +6872,31 @@
 			)
 		)
 	)
+	(global_label "Trackpoint PWR"
+		(shape input)
+		(at 40.64 185.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b453b16a-80c1-4315-bd47-4019ff4c95b5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 22.8988 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Col 5"
 		(shape input)
-		(at 39.37 163.83 180)
+		(at 40.64 180.34 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6517,7 +6906,7 @@
 		)
 		(uuid "b61b437a-da22-4c3b-bcca-c5c28f15c259")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 31.1235 163.83 0)
+			(at 32.3935 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6551,7 +6940,7 @@
 	)
 	(global_label "Row 1"
 		(shape input)
-		(at 41.91 63.5 180)
+		(at 41.91 66.04 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6561,7 +6950,7 @@
 		)
 		(uuid "ba08bff1-50d4-4d5e-9505-19938d9ced96")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 32.9982 63.5 0)
+			(at 32.9982 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6595,22 +6984,22 @@
 	)
 	(global_label "Col 12"
 		(shape input)
-		(at 63.5 175.26 270)
+		(at 78.74 167.64 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "ccf48dc7-8f1c-4223-b545-c83cba3fab5d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 63.5 184.716 90)
+			(at 88.196 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -6639,7 +7028,7 @@
 	)
 	(global_label "Row 0"
 		(shape input)
-		(at 41.91 66.04 180)
+		(at 41.91 68.58 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6649,7 +7038,7 @@
 		)
 		(uuid "dcb3fbcd-2b66-47c3-9261-9ae0ec1bad66")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 32.9982 66.04 0)
+			(at 32.9982 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6661,29 +7050,7 @@
 	)
 	(global_label "Col 11"
 		(shape input)
-		(at 60.96 175.26 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e02451e7-27f7-4bc6-ae51-e0b13e7719d6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.96 184.716 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Row 0"
-		(shape input)
-		(at 77.47 153.67 0)
+		(at 78.74 170.18 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6691,14 +7058,36 @@
 			)
 			(justify left)
 		)
-		(uuid "e14318cd-e44d-4b9d-9aa0-1cbc5d42bb92")
+		(uuid "e02451e7-27f7-4bc6-ae51-e0b13e7719d6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 86.3818 153.67 0)
+			(at 88.196 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Row 0"
+		(shape input)
+		(at 40.64 167.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e14318cd-e44d-4b9d-9aa0-1cbc5d42bb92")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 31.7282 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -6727,7 +7116,7 @@
 	)
 	(global_label "Caps Led"
 		(shape input)
-		(at 77.47 166.37 0)
+		(at 64.77 158.75 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6737,7 +7126,7 @@
 		)
 		(uuid "e96cc18b-684e-4d82-85dc-1de884cec020")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 89.2846 166.37 0)
+			(at 64.77 146.9354 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6749,7 +7138,7 @@
 	)
 	(global_label "Row 2"
 		(shape input)
-		(at 41.91 60.96 180)
+		(at 41.91 63.5 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6759,7 +7148,7 @@
 		)
 		(uuid "f40a334d-be28-463a-8ea2-6e2c20bc6d54")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 32.9982 60.96 0)
+			(at 32.9982 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6771,22 +7160,22 @@
 	)
 	(global_label "Col 9"
 		(shape input)
-		(at 55.88 175.26 270)
+		(at 78.74 175.26 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "f72d16fd-6b9b-4b72-91b4-3f9cc65217ef")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 55.88 183.5065 90)
+			(at 86.9865 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -6845,7 +7234,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0123508b-0b9b-43ed-a856-186aa08b5d11")
-		(property "Reference" "S41"
+		(property "Reference" "S48"
 			(at 260.35 34.29 0)
 			(effects
 				(font
@@ -6897,7 +7286,7 @@
 		(instances
 			(project "FrameworkThinkpadSharedSplit"
 				(path "/0d5c4543-d5fb-491b-bc04-65254edf3078"
-					(reference "S41")
+					(reference "S48")
 					(unit 1)
 				)
 			)
@@ -6913,7 +7302,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "03211dae-2007-48cd-95e5-c6e10758e56b")
-		(property "Reference" "S54"
+		(property "Reference" "S61"
 			(at 248.92 72.39 0)
 			(effects
 				(font
@@ -6965,7 +7354,7 @@
 		(instances
 			(project "FrameworkThinkpadSharedSplit"
 				(path "/0d5c4543-d5fb-491b-bc04-65254edf3078"
-					(reference "S54")
+					(reference "S61")
 					(unit 1)
 				)
 			)
@@ -7049,7 +7438,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "04db24e7-414c-49f3-bdc0-c47c9664d4d4")
-		(property "Reference" "S42"
+		(property "Reference" "S49"
 			(at 270.51 34.29 0)
 			(effects
 				(font
@@ -7101,7 +7490,7 @@
 		(instances
 			(project "FrameworkThinkpadSharedSplit"
 				(path "/0d5c4543-d5fb-491b-bc04-65254edf3078"
-					(reference "S42")
+					(reference "S49")
 					(unit 1)
 				)
 			)
@@ -7117,7 +7506,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "04e3d8c9-c888-4585-87f5-ef6aa10e5471")
-		(property "Reference" "S51"
+		(property "Reference" "S58"
 			(at 214.63 72.39 0)
 			(effects
 				(font
@@ -7169,7 +7558,7 @@
 		(instances
 			(project "FrameworkThinkpadSharedSplit"
 				(path "/0d5c4543-d5fb-491b-bc04-65254edf3078"
-					(reference "S51")
+					(reference "S58")
 					(unit 1)
 				)
 			)
@@ -7185,7 +7574,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "062b0bd4-f976-4841-89be-eb40c8c17349")
-		(property "Reference" "S48"
+		(property "Reference" "S55"
 			(at 260.35 53.34 0)
 			(effects
 				(font
@@ -7237,7 +7626,7 @@
 		(instances
 			(project "FrameworkThinkpadSharedSplit"
 				(path "/0d5c4543-d5fb-491b-bc04-65254edf3078"
-					(reference "S48")
+					(reference "S55")
 					(unit 1)
 				)
 			)
@@ -7341,7 +7730,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "073aa461-0ce9-4f79-8f74-575b1a90d30e")
-		(property "Reference" "S39"
+		(property "Reference" "S46"
 			(at 237.49 34.29 0)
 			(effects
 				(font
@@ -7393,7 +7782,7 @@
 		(instances
 			(project "FrameworkThinkpadSharedSplit"
 				(path "/0d5c4543-d5fb-491b-bc04-65254edf3078"
-					(reference "S39")
+					(reference "S46")
 					(unit 1)
 				)
 			)
@@ -7477,7 +7866,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0794b8e3-b7f9-41b0-a8e7-9c61c04ff8f6")
-		(property "Reference" "S50"
+		(property "Reference" "S57"
 			(at 203.2 72.39 0)
 			(effects
 				(font
@@ -7529,7 +7918,7 @@
 		(instances
 			(project "FrameworkThinkpadSharedSplit"
 				(path "/0d5c4543-d5fb-491b-bc04-65254edf3078"
-					(reference "S50")
+					(reference "S57")
 					(unit 1)
 				)
 			)
@@ -7604,6 +7993,74 @@
 		)
 	)
 	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(at 260.35 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "09d978eb-d2c0-4028-b86f-b33f0d3e14bb")
+		(property "Reference" "S76"
+			(at 260.35 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 260.35 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_Choc:Choc_V1V2_1.00u"
+			(at 260.35 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 260.35 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 260.35 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "30de3762-a8d2-4502-b4dd-b3d2b6873500")
+		)
+		(pin "2"
+			(uuid "26c68875-6c2f-4d51-9c53-21dec3040692")
+		)
+		(instances
+			(project "FrameworkThinkpadSharedSplit"
+				(path "/0d5c4543-d5fb-491b-bc04-65254edf3078"
+					(reference "S76")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Diode")
 		(at 262.89 105.41 90)
 		(unit 1)
@@ -7613,7 +8070,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "09daf4f2-28d9-4f0e-be95-966fe067d0ae")
-		(property "Reference" "D62"
+		(property "Reference" "D69"
 			(at 265.43 104.1399 90)
 			(effects
 				(font
@@ -7685,7 +8142,7 @@
 		(instances
 			(project "FrameworkThinkpadSharedSplit"
 				(path "/0d5c4543-d5fb-491b-bc04-65254edf3078"
-					(reference "D62")
+					(reference "D69")
 					(unit 1)
 				)
 			)
@@ -7701,7 +8158,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0cef5fe4-b43a-472a-a2ed-91a599a4e616")
-		(property "Reference" "D59"
+		(property "Reference" "D66"
 			(at 231.14 104.1399 90)
 			(effects
 				(font
@@ -7773,7 +8230,7 @@
 		(instances
 			(project "FrameworkThinkpadSharedSplit"
 				(path "/0d5c4543-d5fb-491b-bc04-65254edf3078"
-					(reference "D59")
+					(reference "D66")
 					(unit 1)
 				)
 			)
@@ -7857,7 +8314,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "17928952-19d2-4476-909c-b17423dbdb1c")
-		(property "Reference" "D54"
+		(property "Reference" "D61"
 			(at 254 85.0899 90)
 			(effects
 				(font
@@ -7929,7 +8386,7 @@
 		(instances
 			(project "FrameworkThinkpadSharedSplit"
 				(path "/0d5c4543-d5fb-491b-bc04-65254edf3078"
-					(reference "D54")
+					(reference "D61")
 					(unit 1)
 				)
 			)
@@ -8018,6 +8475,250 @@
 			(project "FrameworkThinkpadSharedSplit"
 				(path "/0d5c4543-d5fb-491b-bc04-65254edf3078"
 					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Diode")
+		(at 107.95 124.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "195fef23-9b6a-4521-8dd6-e40ec8d5de98")
+		(property "Reference" "D31"
+			(at 110.49 123.1899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Diode"
+			(at 110.49 125.7299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
+			(at 107.95 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
+			(at 107.95 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 107.95 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 107.95 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "85b4d07e-947b-4cd9-ad1a-a4ca8a804115")
+		)
+		(pin "2"
+			(uuid "d5da9920-f446-4a36-87a6-8c0d7bc214c9")
+		)
+		(instances
+			(project "FrameworkThinkpadSharedSplit"
+				(path "/0d5c4543-d5fb-491b-bc04-65254edf3078"
+					(reference "D31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Diode")
+		(at 205.74 143.51 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1f80220b-4e60-4db0-b206-9e4a2804b135")
+		(property "Reference" "D79"
+			(at 208.28 142.2399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Diode"
+			(at 208.28 144.7799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
+			(at 205.74 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
+			(at 205.74 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 205.74 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 205.74 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e630c179-a537-4105-a0fe-9ab60fcf4735")
+		)
+		(pin "2"
+			(uuid "3a95dfdb-0111-45ec-99ea-64c53d726644")
+		)
+		(instances
+			(project "FrameworkThinkpadSharedSplit"
+				(path "/0d5c4543-d5fb-491b-bc04-65254edf3078"
+					(reference "D79")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(at 214.63 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "20608610-8224-4baf-8de7-cdb9e6054116")
+		(property "Reference" "S79"
+			(at 214.63 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 214.63 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_Choc:Choc_V1V2_1.00u"
+			(at 214.63 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 214.63 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 214.63 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "966e351b-0c6f-4a88-859c-1e4ec13f7ee6")
+		)
+		(pin "2"
+			(uuid "baa54aa2-3f3e-478d-b69c-b16d16b76d53")
+		)
+		(instances
+			(project "FrameworkThinkpadSharedSplit"
+				(path "/0d5c4543-d5fb-491b-bc04-65254edf3078"
+					(reference "S79")
 					(unit 1)
 				)
 			)
@@ -8257,7 +8958,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2636439e-cda7-44d4-856c-fa9b937e3784")
-		(property "Reference" "S36"
+		(property "Reference" "S43"
 			(at 203.2 34.29 0)
 			(effects
 				(font
@@ -8309,7 +9010,95 @@
 		(instances
 			(project "FrameworkThinkpadSharedSplit"
 				(path "/0d5c4543-d5fb-491b-bc04-65254edf3078"
-					(reference "S36")
+					(reference "S43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Diode")
+		(at 142.24 143.51 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "277e8509-161f-4e09-a12e-faec51ad3d37")
+		(property "Reference" "D41"
+			(at 144.78 142.2399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Diode"
+			(at 144.78 144.7799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
+			(at 142.24 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
+			(at 142.24 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 142.24 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 142.24 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "416b124b-88d9-4083-9b5f-d0363cd62c6a")
+		)
+		(pin "2"
+			(uuid "f4fed15f-45fe-42d4-b098-661dda5f0a80")
+		)
+		(instances
+			(project "FrameworkThinkpadSharedSplit"
+				(path "/0d5c4543-d5fb-491b-bc04-65254edf3078"
+					(reference "D41")
 					(unit 1)
 				)
 			)
@@ -8393,7 +9182,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e27392a-c5ee-44c3-b8c9-6cf09a67218f")
-		(property "Reference" "D36"
+		(property "Reference" "D43"
 			(at 208.28 46.9899 90)
 			(effects
 				(font
@@ -8465,7 +9254,7 @@
 		(instances
 			(project "FrameworkThinkpadSharedSplit"
 				(path "/0d5c4543-d5fb-491b-bc04-65254edf3078"
-					(reference "D36")
+					(reference "D43")
 					(unit 1)
 				)
 			)
@@ -8481,7 +9270,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "31753fd2-cc13-4ab8-9c43-484205a5a7a4")
-		(property "Reference" "S57"
+		(property "Reference" "S64"
 			(at 203.2 91.44 0)
 			(effects
 				(font
@@ -8533,7 +9322,7 @@
 		(instances
 			(project "FrameworkThinkpadSharedSplit"
 				(path "/0d5c4543-d5fb-491b-bc04-65254edf3078"
-					(reference "S57")
+					(reference "S64")
 					(unit 1)
 				)
 			)
@@ -8549,7 +9338,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "337a326f-74d5-4f7a-9138-849708519ab9")
-		(property "Reference" "S58"
+		(property "Reference" "S65"
 			(at 214.63 91.44 0)
 			(effects
 				(font
@@ -8601,7 +9390,7 @@
 		(instances
 			(project "FrameworkThinkpadSharedSplit"
 				(path "/0d5c4543-d5fb-491b-bc04-65254edf3078"
-					(reference "S58")
+					(reference "S65")
 					(unit 1)
 				)
 			)
@@ -8705,7 +9494,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "356872c9-ebd3-4bb6-bdf6-9e4f7c964769")
-		(property "Reference" "D45"
+		(property "Reference" "D52"
 			(at 231.14 66.0399 90)
 			(effects
 				(font
@@ -8777,7 +9566,7 @@
 		(instances
 			(project "FrameworkThinkpadSharedSplit"
 				(path "/0d5c4543-d5fb-491b-bc04-65254edf3078"
-					(reference "D45")
+					(reference "D52")
 					(unit 1)
 				)
 			)
@@ -9099,7 +9888,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3a94a5b8-07e9-4e25-bfe2-004a3ddec40b")
-		(property "Reference" "S60"
+		(property "Reference" "S67"
 			(at 237.49 91.44 0)
 			(effects
 				(font
@@ -9151,7 +9940,7 @@
 		(instances
 			(project "FrameworkThinkpadSharedSplit"
 				(path "/0d5c4543-d5fb-491b-bc04-65254edf3078"
-					(reference "S60")
+					(reference "S67")
 					(unit 1)
 				)
 			)
@@ -9255,7 +10044,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ae3460e-09e7-4db5-b6a0-fcfe28c5a7b0")
-		(property "Reference" "D55"
+		(property "Reference" "D62"
 			(at 265.43 85.0899 90)
 			(effects
 				(font
@@ -9327,7 +10116,75 @@
 		(instances
 			(project "FrameworkThinkpadSharedSplit"
 				(path "/0d5c4543-d5fb-491b-bc04-65254edf3078"
-					(reference "D55")
+					(reference "D62")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(at 203.2 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3b87958d-abf4-4e35-a046-2ff1915e5698")
+		(property "Reference" "S78"
+			(at 203.2 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 203.2 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_Choc:Choc_V1V2_1.00u"
+			(at 203.2 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 203.2 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d70e7998-fd2c-423d-af97-80544db32570")
+		)
+		(pin "2"
+			(uuid "95555f4c-3bc7-4caf-992e-015e28767b30")
+		)
+		(instances
+			(project "FrameworkThinkpadSharedSplit"
+				(path "/0d5c4543-d5fb-491b-bc04-65254edf3078"
+					(reference "S78")
 					(unit 1)
 				)
 			)
@@ -9422,35 +10279,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 34.29 208.28 180)
+		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(at 82.55 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "43327ee1-6dba-421f-882f-05068c1a0023")
-		(property "Reference" "TP1"
-			(at 36.83 210.3119 0)
+		(uuid "3e7d2293-0035-4409-9d9f-c9bf82dfacc9")
+		(property "Reference" "S29"
+			(at 82.55 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 36.83 212.8519 0)
+		(property "Value" "Keyswitch"
+			(at 82.55 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm"
-			(at 29.21 208.28 0)
+		(property "Footprint" "ScottoKeebs_Choc:Choc_V1V2_1.00u"
+			(at 82.55 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9459,7 +10314,165 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 29.21 208.28 0)
+			(at 82.55 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 82.55 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b766a953-f4eb-4ea6-8549-f19f089aebe0")
+		)
+		(pin "2"
+			(uuid "171a14db-b338-4c9d-9911-336a3c69e7d6")
+		)
+		(instances
+			(project "FrameworkThinkpadSharedSplit"
+				(path "/0d5c4543-d5fb-491b-bc04-65254edf3078"
+					(reference "S29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Diode")
+		(at 273.05 124.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "42b510a2-167f-43f7-992f-eb801d1efe31")
+		(property "Reference" "D78"
+			(at 275.59 123.1899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Diode"
+			(at 275.59 125.7299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
+			(at 273.05 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 273.05 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
+			(at 273.05 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 273.05 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 273.05 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3abe38d7-69a3-42d2-a84e-fe7f72192311")
+		)
+		(pin "2"
+			(uuid "69c79b9e-0fc3-4810-bfd5-4e6d07384f2d")
+		)
+		(instances
+			(project "FrameworkThinkpadSharedSplit"
+				(path "/0d5c4543-d5fb-491b-bc04-65254edf3078"
+					(reference "D78")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 35.56 234.95 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "43327ee1-6dba-421f-882f-05068c1a0023")
+		(property "Reference" "TP1"
+			(at 38.1 236.9819 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 38.1 239.5219 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm"
+			(at 30.48 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 30.48 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9468,7 +10481,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 34.29 208.28 0)
+			(at 35.56 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9490,7 +10503,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:MCU_Arduino_Pro_Micro")
-		(at 125.73 154.94 180)
+		(at 147.32 181.61 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9499,7 +10512,7 @@
 		(fields_autoplaced yes)
 		(uuid "43f659d7-6766-4183-b28f-daaeb117c2ca")
 		(property "Reference" "U2"
-			(at 125.73 133.35 0)
+			(at 147.32 160.02 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -9507,7 +10520,7 @@
 			)
 		)
 		(property "Value" "Arduino_Pro_Micro"
-			(at 125.73 135.89 0)
+			(at 147.32 162.56 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -9515,7 +10528,7 @@
 			)
 		)
 		(property "Footprint" "ScottoKeebs_MCU:Arduino_Pro_Micro"
-			(at 125.73 132.08 0)
+			(at 147.32 158.75 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -9524,7 +10537,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 91.44 90)
+			(at 120.65 118.11 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -9533,7 +10546,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 125.73 154.94 0)
+			(at 147.32 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9780,7 +10793,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 39.37 208.28 180)
+		(at 40.64 234.95 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9789,7 +10802,7 @@
 		(fields_autoplaced yes)
 		(uuid "490af143-f790-4d26-9163-dc8222b23b93")
 		(property "Reference" "TP3"
-			(at 41.91 210.3119 0)
+			(at 43.18 236.9819 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9798,7 +10811,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 41.91 212.8519 0)
+			(at 43.18 239.5219 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9807,7 +10820,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm"
-			(at 34.29 208.28 0)
+			(at 35.56 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9816,7 +10829,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 34.29 208.28 0)
+			(at 35.56 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9825,7 +10838,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 39.37 208.28 0)
+			(at 40.64 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9855,7 +10868,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "495a6a8f-e79b-4e06-801e-696767451933")
-		(property "Reference" "D67"
+		(property "Reference" "D86"
 			(at 278.4475 190.5 0)
 			(effects
 				(font
@@ -9907,7 +10920,7 @@
 		(instances
 			(project "FrameworkThinkpadSharedSplit"
 				(path "/0d5c4543-d5fb-491b-bc04-65254edf3078"
-					(reference "D67")
+					(reference "D86")
 					(unit 1)
 				)
 			)
@@ -9923,7 +10936,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "495bd171-2864-46f7-87fb-ec4d73bee634")
-		(property "Reference" "D52"
+		(property "Reference" "D59"
 			(at 231.14 85.0899 90)
 			(effects
 				(font
@@ -9995,7 +11008,7 @@
 		(instances
 			(project "FrameworkThinkpadSharedSplit"
 				(path "/0d5c4543-d5fb-491b-bc04-65254edf3078"
-					(reference "D52")
+					(reference "D59")
 					(unit 1)
 				)
 			)
@@ -10079,7 +11092,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4970b1ca-7c7b-43d1-b1fc-bb1f3ec7003f")
-		(property "Reference" "D42"
+		(property "Reference" "D49"
 			(at 275.59 46.9899 90)
 			(effects
 				(font
@@ -10151,7 +11164,75 @@
 		(instances
 			(project "FrameworkThinkpadSharedSplit"
 				(path "/0d5c4543-d5fb-491b-bc04-65254edf3078"
-					(reference "D42")
+					(reference "D49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(at 128.27 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "49d15552-f77c-4bcf-9160-5fe9c285e0fb")
+		(property "Reference" "S40"
+			(at 128.27 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 128.27 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_Choc:Choc_V1V2_1.00u"
+			(at 128.27 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 128.27 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "466216aa-e45d-4072-bd24-2d50600ebe34")
+		)
+		(pin "2"
+			(uuid "8f360dc9-09b3-4c8b-8ec0-028930c4c9d2")
+		)
+		(instances
+			(project "FrameworkThinkpadSharedSplit"
+				(path "/0d5c4543-d5fb-491b-bc04-65254edf3078"
+					(reference "S40")
 					(unit 1)
 				)
 			)
@@ -10167,7 +11248,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a1c1e1d-1ee4-4703-a2e2-19663ccd0218")
-		(property "Reference" "D53"
+		(property "Reference" "D60"
 			(at 242.57 85.0899 90)
 			(effects
 				(font
@@ -10239,7 +11320,95 @@
 		(instances
 			(project "FrameworkThinkpadSharedSplit"
 				(path "/0d5c4543-d5fb-491b-bc04-65254edf3078"
-					(reference "D53")
+					(reference "D60")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Diode")
+		(at 85.09 124.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4a597ab3-47d3-4cf0-87ab-94b6ad6e7060")
+		(property "Reference" "D29"
+			(at 87.63 123.1899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Diode"
+			(at 87.63 125.7299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
+			(at 85.09 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
+			(at 85.09 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 85.09 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 85.09 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "382bf70c-b2f6-4a96-8eb5-0f99a71aa1aa")
+		)
+		(pin "2"
+			(uuid "97025d50-dabd-4aef-b9e4-bcb031464920")
+		)
+		(instances
+			(project "FrameworkThinkpadSharedSplit"
+				(path "/0d5c4543-d5fb-491b-bc04-65254edf3078"
+					(reference "D29")
 					(unit 1)
 				)
 			)
@@ -10323,7 +11492,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d07e37a-1f65-4d94-822a-9785f7578563")
-		(property "Reference" "D64"
+		(property "Reference" "D71"
 			(at 208.28 123.1899 90)
 			(effects
 				(font
@@ -10395,7 +11564,7 @@
 		(instances
 			(project "FrameworkThinkpadSharedSplit"
 				(path "/0d5c4543-d5fb-491b-bc04-65254edf3078"
-					(reference "D64")
+					(reference "D71")
 					(unit 1)
 				)
 			)
@@ -10627,6 +11796,94 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Diode")
+		(at 96.52 124.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "53c2325e-8d62-43d2-baf6-3140905a69ec")
+		(property "Reference" "D30"
+			(at 99.06 123.1899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Diode"
+			(at 99.06 125.7299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
+			(at 96.52 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
+			(at 96.52 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 96.52 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 96.52 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9f3f9695-e8b5-4c92-9f16-b210f32ce00e")
+		)
+		(pin "2"
+			(uuid "c319e29d-95c9-4307-bb94-3b13d1038ed2")
+		)
+		(instances
+			(project "FrameworkThinkpadSharedSplit"
+				(path "/0d5c4543-d5fb-491b-bc04-65254edf3078"
+					(reference "D30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Diode")
 		(at 217.17 67.31 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10635,7 +11892,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "547b1e1d-57b2-49d2-b923-4edf617cc14c")
-		(property "Reference" "D44"
+		(property "Reference" "D51"
 			(at 219.71 66.0399 90)
 			(effects
 				(font
@@ -10707,7 +11964,7 @@
 		(instances
 			(project "FrameworkThinkpadSharedSplit"
 				(path "/0d5c4543-d5fb-491b-bc04-65254edf3078"
-					(reference "D44")
+					(reference "D51")
 					(unit 1)
 				)
 			)
@@ -10939,7 +12196,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 36.83 208.28 180)
+		(at 38.1 234.95 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10948,7 +12205,7 @@
 		(fields_autoplaced yes)
 		(uuid "591a1973-d715-4017-840b-ec4e4f40f39e")
 		(property "Reference" "TP2"
-			(at 39.37 210.3119 0)
+			(at 40.64 236.9819 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10957,7 +12214,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 39.37 212.8519 0)
+			(at 40.64 239.5219 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10966,7 +12223,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm"
-			(at 31.75 208.28 0)
+			(at 33.02 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10975,7 +12232,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 31.75 208.28 0)
+			(at 33.02 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10984,7 +12241,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 36.83 208.28 0)
+			(at 38.1 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11005,6 +12262,74 @@
 		)
 	)
 	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Resistor")
+		(at 41.91 223.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5c80a96b-dafd-4b84-b2c4-53004b687ede")
+		(property "Reference" "R6"
+			(at 41.91 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Resistor 4.7k"
+			(at 41.91 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_Components:Resistor_1206"
+			(at 41.91 225.298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 41.91 223.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 41.91 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "13f3298f-b5c4-4243-8d1e-f46bd48e00c1")
+		)
+		(pin "2"
+			(uuid "2f864e66-de54-428a-9f4f-6ca37d060d27")
+		)
+		(instances
+			(project ""
+				(path "/0d5c4543-d5fb-491b-bc04-65254edf3078"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
 		(at 270.51 99.06 0)
 		(unit 1)
@@ -11014,7 +12339,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5ccffcfe-a958-4598-9c36-0c2a7beaa8da")
-		(property "Reference" "S63"
+		(property "Reference" "S70"
 			(at 270.51 91.44 0)
 			(effects
 				(font
@@ -11066,7 +12391,7 @@
 		(instances
 			(project "FrameworkThinkpadSharedSplit"
 				(path "/0d5c4543-d5fb-491b-bc04-65254edf3078"
-					(reference "S63")
+					(reference "S70")
 					(unit 1)
 				)
 			)
@@ -11229,85 +12554,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x05_Socket")
-		(at 46.99 60.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "64a0f939-1a19-46d2-92cf-6cff3fa8f75d")
-		(property "Reference" "J8"
-			(at 48.26 59.6899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x05_Socket"
-			(at 48.26 62.2299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53048-0510_1x05_P1.25mm_Horizontal"
-			(at 46.99 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 46.99 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x05, script generated"
-			(at 46.99 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "b9f81551-05b0-4163-966c-e06fa610ed44")
-		)
-		(pin "4"
-			(uuid "2b4a5832-10dd-496a-a958-b93f4421e97e")
-		)
-		(pin "2"
-			(uuid "60d7ba2a-a4dd-4afa-a1c3-8a9e8331f241")
-		)
-		(pin "5"
-			(uuid "b47c70e5-3327-4e22-af8b-cf57ff333c70")
-		)
-		(pin "1"
-			(uuid "87fab4fa-4860-45b6-80d2-1254f121c970")
-		)
-		(instances
-			(project "FrameworkThinkpadSharedSplit"
-				(path "/0d5c4543-d5fb-491b-bc04-65254edf3078"
-					(reference "J8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
 		(at 248.92 60.96 0)
 		(unit 1)
@@ -11317,7 +12563,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "64d0ad08-6620-4f69-8813-265292c3d2f6")
-		(property "Reference" "S47"
+		(property "Reference" "S54"
 			(at 248.92 53.34 0)
 			(effects
 				(font
@@ -11369,7 +12615,7 @@
 		(instances
 			(project "FrameworkThinkpadSharedSplit"
 				(path "/0d5c4543-d5fb-491b-bc04-65254edf3078"
-					(reference "S47")
+					(reference "S54")
 					(unit 1)
 				)
 			)
@@ -11385,7 +12631,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6839f2e6-f58e-4c57-ab44-7b0a637f831c")
-		(property "Reference" "D47"
+		(property "Reference" "D54"
 			(at 254 66.0399 90)
 			(effects
 				(font
@@ -11457,7 +12703,7 @@
 		(instances
 			(project "FrameworkThinkpadSharedSplit"
 				(path "/0d5c4543-d5fb-491b-bc04-65254edf3078"
-					(reference "D47")
+					(reference "D54")
 					(unit 1)
 				)
 			)
@@ -11473,7 +12719,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "683cc6af-ae2e-449c-aa33-c84a086bf28b")
-		(property "Reference" "D60"
+		(property "Reference" "D67"
 			(at 242.57 104.1399 90)
 			(effects
 				(font
@@ -11545,7 +12791,7 @@
 		(instances
 			(project "FrameworkThinkpadSharedSplit"
 				(path "/0d5c4543-d5fb-491b-bc04-65254edf3078"
-					(reference "D60")
+					(reference "D67")
 					(unit 1)
 				)
 			)
@@ -11561,7 +12807,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6c6fe946-2ad9-4dcf-b81c-3dfc8bd2bfa6")
-		(property "Reference" "D56"
+		(property "Reference" "D63"
 			(at 275.59 85.0899 90)
 			(effects
 				(font
@@ -11633,7 +12879,7 @@
 		(instances
 			(project "FrameworkThinkpadSharedSplit"
 				(path "/0d5c4543-d5fb-491b-bc04-65254edf3078"
-					(reference "D56")
+					(reference "D63")
 					(unit 1)
 				)
 			)
@@ -11776,35 +13022,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x05_Socket")
-		(at 166.37 60.96 0)
+		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(at 226.06 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "6f0f56a6-d430-4a21-a187-ca091b0f09c9")
-		(property "Reference" "J1"
-			(at 167.64 59.6899 0)
+		(uuid "6e2d3f27-1a6a-47c3-ab40-73854b342a49")
+		(property "Reference" "S80"
+			(at 226.06 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x05_Socket"
-			(at 167.64 62.2299 0)
+		(property "Value" "Keyswitch"
+			(at 226.06 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53048-0510_1x05_P1.25mm_Horizontal"
-			(at 166.37 60.96 0)
+		(property "Footprint" "ScottoKeebs_Choc:Choc_V1V2_1.00u"
+			(at 226.06 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11813,7 +13057,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 166.37 60.96 0)
+			(at 226.06 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11821,34 +13065,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x05, script generated"
-			(at 166.37 60.96 0)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 226.06 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "3"
-			(uuid "1ee6e17e-fed7-46d1-ac6f-9d2903bd6d95")
-		)
-		(pin "4"
-			(uuid "ce79c5b1-e654-47ec-b50e-bd97a211a261")
-		)
-		(pin "2"
-			(uuid "f4fead14-5276-4870-9d3c-4281b51a95b2")
-		)
-		(pin "5"
-			(uuid "d745685b-bcd2-43a1-bbc4-5e6080b48ea7")
 		)
 		(pin "1"
-			(uuid "5e9ef023-9c86-443f-ab6c-8c421c7f9e3e")
+			(uuid "795da20c-98c3-4177-a76c-2c340622f85f")
+		)
+		(pin "2"
+			(uuid "7e325c7a-356e-4b76-a659-443b8a022ebe")
 		)
 		(instances
-			(project ""
+			(project "FrameworkThinkpadSharedSplit"
 				(path "/0d5c4543-d5fb-491b-bc04-65254edf3078"
-					(reference "J1")
+					(reference "S80")
 					(unit 1)
 				)
 			)
@@ -11864,7 +13099,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7028fbdc-6896-47f2-ab4b-221be5f3a88b")
-		(property "Reference" "D50"
+		(property "Reference" "D57"
 			(at 208.28 85.0899 90)
 			(effects
 				(font
@@ -11936,7 +13171,7 @@
 		(instances
 			(project "FrameworkThinkpadSharedSplit"
 				(path "/0d5c4543-d5fb-491b-bc04-65254edf3078"
-					(reference "D50")
+					(reference "D57")
 					(unit 1)
 				)
 			)
@@ -11952,7 +13187,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "70b7fccd-ad81-405c-bf43-f01fdf81cb77")
-		(property "Reference" "S59"
+		(property "Reference" "S66"
 			(at 226.06 91.44 0)
 			(effects
 				(font
@@ -12004,7 +13239,88 @@
 		(instances
 			(project "FrameworkThinkpadSharedSplit"
 				(path "/0d5c4543-d5fb-491b-bc04-65254edf3078"
-					(reference "S59")
+					(reference "S66")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x06_Socket")
+		(at 166.37 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "716804e1-fd29-4b24-b8bf-f6abe89d9ade")
+		(property "Reference" "J14"
+			(at 167.64 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x06_Socket"
+			(at 167.64 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53048-0610_1x06_P1.25mm_Horizontal"
+			(at 166.37 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x06, script generated"
+			(at 166.37 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "3759752e-8546-49dc-8e59-3789fea6b6c5")
+		)
+		(pin "2"
+			(uuid "da2b48e0-c390-4864-9aa6-e25406f48288")
+		)
+		(pin "1"
+			(uuid "44f015ce-ec15-49f1-86ac-b6626c350194")
+		)
+		(pin "4"
+			(uuid "f884c5a8-ed16-4932-9167-93eed7367256")
+		)
+		(pin "5"
+			(uuid "3ca26be8-e01d-4a66-b988-99c1e1648c8f")
+		)
+		(pin "6"
+			(uuid "ef5c458b-79ac-45cf-993e-2cb744be441b")
+		)
+		(instances
+			(project "FrameworkThinkpadSharedSplit"
+				(path "/0d5c4543-d5fb-491b-bc04-65254edf3078"
+					(reference "J14")
 					(unit 1)
 				)
 			)
@@ -12020,7 +13336,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7169fda0-6857-412b-95d1-ca61734fd9d3")
-		(property "Reference" "D46"
+		(property "Reference" "D53"
 			(at 242.57 66.0399 90)
 			(effects
 				(font
@@ -12092,7 +13408,7 @@
 		(instances
 			(project "FrameworkThinkpadSharedSplit"
 				(path "/0d5c4543-d5fb-491b-bc04-65254edf3078"
-					(reference "D46")
+					(reference "D53")
 					(unit 1)
 				)
 			)
@@ -12108,7 +13424,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7313cc76-0125-4f33-835c-76b30c4ef709")
-		(property "Reference" "D40"
+		(property "Reference" "D47"
 			(at 254 46.9899 90)
 			(effects
 				(font
@@ -12180,7 +13496,7 @@
 		(instances
 			(project "FrameworkThinkpadSharedSplit"
 				(path "/0d5c4543-d5fb-491b-bc04-65254edf3078"
-					(reference "D40")
+					(reference "D47")
 					(unit 1)
 				)
 			)
@@ -12276,7 +13592,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "747d37a5-3da7-4fd0-b6b1-6a67f0e3a9e9")
-		(property "Reference" "D65"
+		(property "Reference" "D72"
 			(at 219.71 123.1899 90)
 			(effects
 				(font
@@ -12348,7 +13664,7 @@
 		(instances
 			(project "FrameworkThinkpadSharedSplit"
 				(path "/0d5c4543-d5fb-491b-bc04-65254edf3078"
-					(reference "D65")
+					(reference "D72")
 					(unit 1)
 				)
 			)
@@ -12520,7 +13836,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b8b6adb-aa4f-4673-bbda-12b727935a89")
-		(property "Reference" "D31"
+		(property "Reference" "D84"
 			(at 278.4475 170.18 0)
 			(effects
 				(font
@@ -12572,7 +13888,88 @@
 		(instances
 			(project "FrameworkThinkpadSharedSplit"
 				(path "/0d5c4543-d5fb-491b-bc04-65254edf3078"
-					(reference "D31")
+					(reference "D84")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x06_Socket")
+		(at 190.5 60.96 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7cc836a3-efc5-457f-ad42-a62873ff4a8f")
+		(property "Reference" "J15"
+			(at 189.23 60.9601 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x06_Socket"
+			(at 189.23 58.4201 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53048-0610_1x06_P1.25mm_Horizontal"
+			(at 190.5 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 190.5 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x06, script generated"
+			(at 190.5 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "8fb5d7c6-910f-43e5-98e0-bb5a2d248e6e")
+		)
+		(pin "2"
+			(uuid "30acb750-13d1-4ee1-b2d4-ddb30596a410")
+		)
+		(pin "1"
+			(uuid "7ff310c1-8b5d-4ebb-a34c-9223075c1a76")
+		)
+		(pin "4"
+			(uuid "5d2a6e6f-727b-47e3-b4f0-22a59c0c92b3")
+		)
+		(pin "5"
+			(uuid "98d65cf0-c96b-4f2f-8983-dcaf340885f9")
+		)
+		(pin "6"
+			(uuid "2cfcd3f0-d2c3-45b5-9420-9180a5423e81")
+		)
+		(instances
+			(project "FrameworkThinkpadSharedSplit"
+				(path "/0d5c4543-d5fb-491b-bc04-65254edf3078"
+					(reference "J15")
 					(unit 1)
 				)
 			)
@@ -12588,7 +13985,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e16b484-eebd-4ed8-82ae-16469e1808f2")
-		(property "Reference" "D38"
+		(property "Reference" "D45"
 			(at 231.14 46.9899 90)
 			(effects
 				(font
@@ -12660,7 +14057,7 @@
 		(instances
 			(project "FrameworkThinkpadSharedSplit"
 				(path "/0d5c4543-d5fb-491b-bc04-65254edf3078"
-					(reference "D38")
+					(reference "D45")
 					(unit 1)
 				)
 			)
@@ -12676,7 +14073,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f171579-6637-4e86-9a1e-a09d8027f807")
-		(property "Reference" "S56"
+		(property "Reference" "S63"
 			(at 270.51 72.39 0)
 			(effects
 				(font
@@ -12728,7 +14125,7 @@
 		(instances
 			(project "FrameworkThinkpadSharedSplit"
 				(path "/0d5c4543-d5fb-491b-bc04-65254edf3078"
-					(reference "S56")
+					(reference "S63")
 					(unit 1)
 				)
 			)
@@ -13207,7 +14604,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "83c7435b-7e42-4ee4-bf46-320d10ea10f5")
-		(property "Reference" "D58"
+		(property "Reference" "D65"
 			(at 219.71 104.1399 90)
 			(effects
 				(font
@@ -13279,7 +14676,95 @@
 		(instances
 			(project "FrameworkThinkpadSharedSplit"
 				(path "/0d5c4543-d5fb-491b-bc04-65254edf3078"
-					(reference "D58")
+					(reference "D65")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Diode")
+		(at 119.38 124.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "83dd655b-d97f-44f9-940a-e3808f9bfe24")
+		(property "Reference" "D32"
+			(at 121.92 123.1899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Diode"
+			(at 121.92 125.7299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
+			(at 119.38 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
+			(at 119.38 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 119.38 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 119.38 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "88086224-e875-4351-996c-4eae57ced8e1")
+		)
+		(pin "2"
+			(uuid "11971b7d-afcc-482f-b78e-542e5c23b857")
+		)
+		(instances
+			(project "FrameworkThinkpadSharedSplit"
+				(path "/0d5c4543-d5fb-491b-bc04-65254edf3078"
+					(reference "D32")
 					(unit 1)
 				)
 			)
@@ -13287,7 +14772,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:MCU_RP2040_Pro_Micro")
-		(at 58.42 153.67 0)
+		(at 59.69 180.34 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13295,7 +14780,7 @@
 		(dnp no)
 		(uuid "8932d31f-e378-4592-8d23-625d1e4f0ef2")
 		(property "Reference" "U1"
-			(at 58.42 132.08 0)
+			(at 59.69 201.93 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -13303,7 +14788,7 @@
 			)
 		)
 		(property "Value" "RP2040_Pro_Micro"
-			(at 58.42 134.62 0)
+			(at 59.69 199.39 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -13311,7 +14796,7 @@
 			)
 		)
 		(property "Footprint" "ScottoKeebs_MCU:RP2040_Pro_Micro"
-			(at 58.42 185.166 0)
+			(at 59.69 148.844 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -13320,7 +14805,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 217.17 90)
+			(at 33.02 116.84 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -13329,7 +14814,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 58.42 153.67 0)
+			(at 59.69 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13440,6 +14925,74 @@
 		)
 	)
 	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Resistor")
+		(at 44.45 227.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d6d9a01-6ed2-4ff8-a0a1-8aaa8e1f8f12")
+		(property "Reference" "R7"
+			(at 44.45 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Resistor 4.7k"
+			(at 44.45 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_Components:Resistor_1206"
+			(at 44.45 229.108 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 227.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 44.45 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c8ff348c-bf5a-43d0-8b6e-0e12e5972473")
+		)
+		(pin "2"
+			(uuid "ce528aed-c530-4eb1-9a6c-b1a204b98919")
+		)
+		(instances
+			(project "FrameworkThinkpadSharedSplit"
+				(path "/0d5c4543-d5fb-491b-bc04-65254edf3078"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
 		(at 128.27 41.91 0)
 		(unit 1)
@@ -13509,6 +15062,94 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Diode")
+		(at 217.17 143.51 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "978493a4-7c99-406a-a389-2f4d7a100281")
+		(property "Reference" "D80"
+			(at 219.71 142.2399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Diode"
+			(at 219.71 144.7799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
+			(at 217.17 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
+			(at 217.17 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 217.17 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 217.17 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "19af3881-6251-4879-9d3b-836bfd8ed3f4")
+		)
+		(pin "2"
+			(uuid "4d3651a1-79f7-44ed-bf57-6cb979ec2b1c")
+		)
+		(instances
+			(project "FrameworkThinkpadSharedSplit"
+				(path "/0d5c4543-d5fb-491b-bc04-65254edf3078"
+					(reference "D80")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Diode")
 		(at 217.17 86.36 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13517,7 +15158,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b7bf3d5-73df-4be2-b9cf-89d9d1362481")
-		(property "Reference" "D51"
+		(property "Reference" "D58"
 			(at 219.71 85.0899 90)
 			(effects
 				(font
@@ -13589,7 +15230,75 @@
 		(instances
 			(project "FrameworkThinkpadSharedSplit"
 				(path "/0d5c4543-d5fb-491b-bc04-65254edf3078"
-					(reference "D51")
+					(reference "D58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(at 139.7 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9c0d5f32-0ac0-4e2b-b60c-d6dd3cb55037")
+		(property "Reference" "S41"
+			(at 139.7 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 139.7 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_Choc:Choc_V1V2_1.00u"
+			(at 139.7 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 139.7 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "58f52dea-4b4f-4149-ad45-e96e8181860c")
+		)
+		(pin "2"
+			(uuid "d7bd6f94-9d7f-4f59-8732-84d9fde8864d")
+		)
+		(instances
+			(project "FrameworkThinkpadSharedSplit"
+				(path "/0d5c4543-d5fb-491b-bc04-65254edf3078"
+					(reference "S41")
 					(unit 1)
 				)
 			)
@@ -13684,8 +15393,96 @@
 		)
 	)
 	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Diode")
+		(at 262.89 124.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d318c12-d0d4-42a1-96a9-5cfced1d0409")
+		(property "Reference" "D76"
+			(at 265.43 123.1899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Diode"
+			(at 265.43 125.7299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
+			(at 262.89 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 262.89 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
+			(at 262.89 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 262.89 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 262.89 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1074efac-e7e1-4f91-b746-bf267396b48a")
+		)
+		(pin "2"
+			(uuid "685fdf72-939c-4126-a3c5-be860de31a81")
+		)
+		(instances
+			(project "FrameworkThinkpadSharedSplit"
+				(path "/0d5c4543-d5fb-491b-bc04-65254edf3078"
+					(reference "D76")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 41.91 208.28 180)
+		(at 43.18 234.95 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13694,7 +15491,7 @@
 		(fields_autoplaced yes)
 		(uuid "9f5dac3e-0d62-4645-a583-0a3e72e20648")
 		(property "Reference" "TP4"
-			(at 44.45 210.3119 0)
+			(at 45.72 236.9819 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13703,7 +15500,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 44.45 212.8519 0)
+			(at 45.72 239.5219 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13712,7 +15509,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm"
-			(at 36.83 208.28 0)
+			(at 38.1 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13721,7 +15518,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 36.83 208.28 0)
+			(at 38.1 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13730,7 +15527,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 41.91 208.28 0)
+			(at 43.18 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13760,7 +15557,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ffa79db-b2c7-43de-b4d0-3ba71d134209")
-		(property "Reference" "S61"
+		(property "Reference" "S68"
 			(at 248.92 91.44 0)
 			(effects
 				(font
@@ -13812,7 +15609,7 @@
 		(instances
 			(project "FrameworkThinkpadSharedSplit"
 				(path "/0d5c4543-d5fb-491b-bc04-65254edf3078"
-					(reference "S61")
+					(reference "S68")
 					(unit 1)
 				)
 			)
@@ -13828,7 +15625,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a15409da-f715-4609-9e07-f7bb31af75bf")
-		(property "Reference" "D41"
+		(property "Reference" "D48"
 			(at 265.43 46.9899 90)
 			(effects
 				(font
@@ -13900,7 +15697,7 @@
 		(instances
 			(project "FrameworkThinkpadSharedSplit"
 				(path "/0d5c4543-d5fb-491b-bc04-65254edf3078"
-					(reference "D41")
+					(reference "D48")
 					(unit 1)
 				)
 			)
@@ -14004,7 +15801,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a4f66301-cd57-47f8-ae9b-d4b8282670ad")
-		(property "Reference" "S66"
+		(property "Reference" "S73"
 			(at 226.06 110.49 0)
 			(effects
 				(font
@@ -14056,7 +15853,7 @@
 		(instances
 			(project "FrameworkThinkpadSharedSplit"
 				(path "/0d5c4543-d5fb-491b-bc04-65254edf3078"
-					(reference "S66")
+					(reference "S73")
 					(unit 1)
 				)
 			)
@@ -14152,7 +15949,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 73.66 214.63 90)
+		(at 74.93 241.3 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14161,7 +15958,7 @@
 		(fields_autoplaced yes)
 		(uuid "a5e545ae-7946-4d80-84d6-8ecd236f34b1")
 		(property "Reference" "TP10"
-			(at 70.358 209.55 90)
+			(at 71.628 236.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14169,7 +15966,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 70.358 212.09 90)
+			(at 71.628 238.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14177,7 +15974,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm"
-			(at 73.66 209.55 0)
+			(at 74.93 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14186,7 +15983,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 73.66 209.55 0)
+			(at 74.93 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14195,7 +15992,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 73.66 214.63 0)
+			(at 74.93 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14216,6 +16013,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x06_Socket")
+		(at 46.99 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a6e2cf2c-7536-4535-a1d7-0d7093227b1b")
+		(property "Reference" "J9"
+			(at 48.26 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x06_Socket"
+			(at 48.26 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53048-0610_1x06_P1.25mm_Horizontal"
+			(at 46.99 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 46.99 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x06, script generated"
+			(at 46.99 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "fa06ab9b-b442-4c98-ba9f-6edb287beb51")
+		)
+		(pin "2"
+			(uuid "d3a5cde9-1913-42a3-905d-0106b8657da4")
+		)
+		(pin "1"
+			(uuid "d1162efa-2d96-4ce0-9ab7-d4333dd39edb")
+		)
+		(pin "4"
+			(uuid "cb807f04-f406-484d-8756-7b49dc54cb6d")
+		)
+		(pin "5"
+			(uuid "f19d3727-42de-451c-a67d-52c19404924d")
+		)
+		(pin "6"
+			(uuid "c30b8c15-13c0-48c0-8170-ac4555c3e889")
+		)
+		(instances
+			(project ""
+				(path "/0d5c4543-d5fb-491b-bc04-65254edf3078"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Diode")
 		(at 262.89 67.31 90)
 		(unit 1)
@@ -14225,7 +16104,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a7da4d9f-ca77-4d0a-bd16-5b6f6e784f72")
-		(property "Reference" "D48"
+		(property "Reference" "D55"
 			(at 265.43 66.0399 90)
 			(effects
 				(font
@@ -14297,7 +16176,7 @@
 		(instances
 			(project "FrameworkThinkpadSharedSplit"
 				(path "/0d5c4543-d5fb-491b-bc04-65254edf3078"
-					(reference "D48")
+					(reference "D55")
 					(unit 1)
 				)
 			)
@@ -14383,6 +16262,74 @@
 			(project ""
 				(path "/0d5c4543-d5fb-491b-bc04-65254edf3078"
 					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(at 105.41 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aa2bff0d-d0c4-4e14-894f-2d93650370b7")
+		(property "Reference" "S31"
+			(at 105.41 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 105.41 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_Choc:Choc_V1V2_1.00u"
+			(at 105.41 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 105.41 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e31ad7ed-4f9d-4ff0-bdd2-c13af1159686")
+		)
+		(pin "2"
+			(uuid "a536326f-6c28-4d0c-a9a5-ba16c025138c")
+		)
+		(instances
+			(project "FrameworkThinkpadSharedSplit"
+				(path "/0d5c4543-d5fb-491b-bc04-65254edf3078"
+					(reference "S31")
 					(unit 1)
 				)
 			)
@@ -14654,7 +16601,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x06_Socket")
-		(at 110.49 207.01 0)
+		(at 111.76 233.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14663,7 +16610,7 @@
 		(fields_autoplaced yes)
 		(uuid "b02976f3-95cd-4edd-b5c5-d5b7835641e9")
 		(property "Reference" "J11"
-			(at 111.76 207.0099 0)
+			(at 113.03 233.6799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14672,7 +16619,7 @@
 			)
 		)
 		(property "Value" "Conn_01x06_Socket"
-			(at 111.76 209.5499 0)
+			(at 113.03 236.2199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14681,7 +16628,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53048-0610_1x06_P1.25mm_Horizontal"
-			(at 110.49 207.01 0)
+			(at 111.76 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14690,7 +16637,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 110.49 207.01 0)
+			(at 111.76 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14699,7 +16646,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated"
-			(at 110.49 207.01 0)
+			(at 111.76 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14827,7 +16774,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b27c1edf-0bc0-4afb-838a-171d68c4bb5d")
-		(property "Reference" "S55"
+		(property "Reference" "S62"
 			(at 260.35 72.39 0)
 			(effects
 				(font
@@ -14879,7 +16826,7 @@
 		(instances
 			(project "FrameworkThinkpadSharedSplit"
 				(path "/0d5c4543-d5fb-491b-bc04-65254edf3078"
-					(reference "S55")
+					(reference "S62")
 					(unit 1)
 				)
 			)
@@ -14980,7 +16927,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3ce8436-a5c0-436e-a06b-b818103055d0")
-		(property "Reference" "D63"
+		(property "Reference" "D70"
 			(at 275.59 104.1399 90)
 			(effects
 				(font
@@ -15052,7 +16999,7 @@
 		(instances
 			(project "FrameworkThinkpadSharedSplit"
 				(path "/0d5c4543-d5fb-491b-bc04-65254edf3078"
-					(reference "D63")
+					(reference "D70")
 					(unit 1)
 				)
 			)
@@ -15148,6 +17095,74 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(at 248.92 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b8ff0f7b-2155-452a-b8f7-11fecff69a39")
+		(property "Reference" "S75"
+			(at 248.92 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 248.92 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_Choc:Choc_V1V2_1.00u"
+			(at 248.92 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 248.92 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 248.92 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bcec5a18-0c44-4131-a7bf-07ff13c1b20d")
+		)
+		(pin "2"
+			(uuid "8031b802-3f17-4e9f-967d-4306bade1e32")
+		)
+		(instances
+			(project "FrameworkThinkpadSharedSplit"
+				(path "/0d5c4543-d5fb-491b-bc04-65254edf3078"
+					(reference "S75")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
 		(at 226.06 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15156,7 +17171,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b9e549bb-ef5e-4ebe-b074-0e8f81ce9bd8")
-		(property "Reference" "S38"
+		(property "Reference" "S45"
 			(at 226.06 34.29 0)
 			(effects
 				(font
@@ -15208,7 +17223,7 @@
 		(instances
 			(project "FrameworkThinkpadSharedSplit"
 				(path "/0d5c4543-d5fb-491b-bc04-65254edf3078"
-					(reference "S38")
+					(reference "S45")
 					(unit 1)
 				)
 			)
@@ -15224,7 +17239,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b9e74ccb-bc88-42ee-9de1-08a572fc4060")
-		(property "Reference" "S62"
+		(property "Reference" "S69"
 			(at 260.35 91.44 0)
 			(effects
 				(font
@@ -15276,7 +17291,7 @@
 		(instances
 			(project "FrameworkThinkpadSharedSplit"
 				(path "/0d5c4543-d5fb-491b-bc04-65254edf3078"
-					(reference "S62")
+					(reference "S69")
 					(unit 1)
 				)
 			)
@@ -15372,6 +17387,94 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Diode")
+		(at 228.6 143.51 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb9babae-e577-413c-954a-60b9c42196e3")
+		(property "Reference" "D81"
+			(at 231.14 142.2399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Diode"
+			(at 231.14 144.7799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
+			(at 228.6 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
+			(at 228.6 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 228.6 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 228.6 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b0115069-b64d-4443-8b8a-0665907a08d7")
+		)
+		(pin "2"
+			(uuid "e8ec0490-1311-4461-89d9-149c07d65f40")
+		)
+		(instances
+			(project "FrameworkThinkpadSharedSplit"
+				(path "/0d5c4543-d5fb-491b-bc04-65254edf3078"
+					(reference "D81")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Diode")
 		(at 240.03 48.26 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15380,7 +17483,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bc4de1d8-2b83-4991-9a10-00214870cd8c")
-		(property "Reference" "D39"
+		(property "Reference" "D46"
 			(at 242.57 46.9899 90)
 			(effects
 				(font
@@ -15452,7 +17555,7 @@
 		(instances
 			(project "FrameworkThinkpadSharedSplit"
 				(path "/0d5c4543-d5fb-491b-bc04-65254edf3078"
-					(reference "D39")
+					(reference "D46")
 					(unit 1)
 				)
 			)
@@ -15536,7 +17639,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "beacecda-5ff6-4667-9b75-381dbdedc628")
-		(property "Reference" "S46"
+		(property "Reference" "S53"
 			(at 237.49 53.34 0)
 			(effects
 				(font
@@ -15588,7 +17691,7 @@
 		(instances
 			(project "FrameworkThinkpadSharedSplit"
 				(path "/0d5c4543-d5fb-491b-bc04-65254edf3078"
-					(reference "S46")
+					(reference "S53")
 					(unit 1)
 				)
 			)
@@ -15604,7 +17707,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c31f4a1e-8427-44b5-85a2-e19a75320d6f")
-		(property "Reference" "S49"
+		(property "Reference" "S56"
 			(at 270.51 53.34 0)
 			(effects
 				(font
@@ -15656,7 +17759,7 @@
 		(instances
 			(project "FrameworkThinkpadSharedSplit"
 				(path "/0d5c4543-d5fb-491b-bc04-65254edf3078"
-					(reference "S49")
+					(reference "S56")
 					(unit 1)
 				)
 			)
@@ -15740,7 +17843,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c5aeba56-b5aa-49b1-bcd0-906670a1d0e2")
-		(property "Reference" "D37"
+		(property "Reference" "D44"
 			(at 219.71 46.9899 90)
 			(effects
 				(font
@@ -15812,7 +17915,7 @@
 		(instances
 			(project "FrameworkThinkpadSharedSplit"
 				(path "/0d5c4543-d5fb-491b-bc04-65254edf3078"
-					(reference "D37")
+					(reference "D44")
 					(unit 1)
 				)
 			)
@@ -15828,7 +17931,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c5d74942-5390-4fe4-ab95-015ee22f146b")
-		(property "Reference" "S40"
+		(property "Reference" "S47"
 			(at 248.92 34.29 0)
 			(effects
 				(font
@@ -15880,7 +17983,75 @@
 		(instances
 			(project "FrameworkThinkpadSharedSplit"
 				(path "/0d5c4543-d5fb-491b-bc04-65254edf3078"
-					(reference "S40")
+					(reference "S47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(at 116.84 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c854cf6f-d42f-4b39-8c95-b2a3592ddcbe")
+		(property "Reference" "S32"
+			(at 116.84 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 116.84 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_Choc:Choc_V1V2_1.00u"
+			(at 116.84 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.84 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 116.84 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "34dc4ea3-4761-4ea1-9e6b-1430a26f2323")
+		)
+		(pin "2"
+			(uuid "ac405743-ae82-4bbc-a338-44bfb1771133")
+		)
+		(instances
+			(project "FrameworkThinkpadSharedSplit"
+				(path "/0d5c4543-d5fb-491b-bc04-65254edf3078"
+					(reference "S32")
 					(unit 1)
 				)
 			)
@@ -16043,6 +18214,74 @@
 		)
 	)
 	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(at 149.86 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cba84125-e119-4fb8-96e0-1f663017dc98")
+		(property "Reference" "S42"
+			(at 149.86 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 149.86 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_Choc:Choc_V1V2_1.00u"
+			(at 149.86 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.86 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 149.86 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c3c6136e-0cbf-4941-a3e5-345f1ecdb682")
+		)
+		(pin "2"
+			(uuid "efb3b48b-d88f-41a5-857c-0e91d596cc97")
+		)
+		(instances
+			(project "FrameworkThinkpadSharedSplit"
+				(path "/0d5c4543-d5fb-491b-bc04-65254edf3078"
+					(reference "S42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 276.86 157.48 180)
 		(unit 1)
@@ -16052,7 +18291,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd8ce627-7c86-454e-9589-a5a0ff4c0a66")
-		(property "Reference" "D29"
+		(property "Reference" "D82"
 			(at 278.4475 149.86 0)
 			(effects
 				(font
@@ -16104,7 +18343,7 @@
 		(instances
 			(project ""
 				(path "/0d5c4543-d5fb-491b-bc04-65254edf3078"
-					(reference "D29")
+					(reference "D82")
 					(unit 1)
 				)
 			)
@@ -16120,7 +18359,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cda4e458-d8aa-4aa3-894f-240cd8a74dd0")
-		(property "Reference" "S45"
+		(property "Reference" "S52"
 			(at 226.06 53.34 0)
 			(effects
 				(font
@@ -16172,7 +18411,7 @@
 		(instances
 			(project "FrameworkThinkpadSharedSplit"
 				(path "/0d5c4543-d5fb-491b-bc04-65254edf3078"
-					(reference "S45")
+					(reference "S52")
 					(unit 1)
 				)
 			)
@@ -16188,7 +18427,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cdf4108a-7f57-479d-b2f8-f333dda237bd")
-		(property "Reference" "S53"
+		(property "Reference" "S60"
 			(at 237.49 72.39 0)
 			(effects
 				(font
@@ -16240,7 +18479,95 @@
 		(instances
 			(project "FrameworkThinkpadSharedSplit"
 				(path "/0d5c4543-d5fb-491b-bc04-65254edf3078"
-					(reference "S53")
+					(reference "S60")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Diode")
+		(at 152.4 143.51 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d0dc907e-a6d9-458f-955f-1a52ad86ac6d")
+		(property "Reference" "D42"
+			(at 154.94 142.2399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Diode"
+			(at 154.94 144.7799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
+			(at 152.4 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
+			(at 152.4 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 152.4 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 152.4 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "91634f18-5072-4096-bfab-d824d0b7a75c")
+		)
+		(pin "2"
+			(uuid "82d70502-7cef-4a1c-b0bc-b80bd162c039")
+		)
+		(instances
+			(project "FrameworkThinkpadSharedSplit"
+				(path "/0d5c4543-d5fb-491b-bc04-65254edf3078"
+					(reference "D42")
 					(unit 1)
 				)
 			)
@@ -16335,6 +18662,74 @@
 		)
 	)
 	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(at 237.49 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d1cbcf1d-c9d1-4911-8db8-445bd4756813")
+		(property "Reference" "S74"
+			(at 237.49 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 237.49 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_Choc:Choc_V1V2_1.00u"
+			(at 237.49 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 237.49 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 237.49 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "87597634-a932-4433-bd10-fc9f5066efd9")
+		)
+		(pin "2"
+			(uuid "696eae52-dffb-4694-8bdf-8db0f19000ce")
+		)
+		(instances
+			(project "FrameworkThinkpadSharedSplit"
+				(path "/0d5c4543-d5fb-491b-bc04-65254edf3078"
+					(reference "S74")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Resistor")
 		(at 284.48 198.12 0)
 		(unit 1)
@@ -16404,7 +18799,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 73.66 201.93 90)
+		(at 74.93 228.6 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16413,7 +18808,7 @@
 		(fields_autoplaced yes)
 		(uuid "d2f8e86a-b0a6-44b2-9cb2-0daf97ac6426")
 		(property "Reference" "TP5"
-			(at 70.358 196.85 90)
+			(at 71.628 223.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16421,7 +18816,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 70.358 199.39 90)
+			(at 71.628 226.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16429,7 +18824,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm"
-			(at 73.66 196.85 0)
+			(at 74.93 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16438,7 +18833,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 73.66 196.85 0)
+			(at 74.93 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16447,7 +18842,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 73.66 201.93 0)
+			(at 74.93 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16468,6 +18863,74 @@
 		)
 	)
 	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(at 93.98 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d444031b-91ea-4dd7-a165-3d1752f5a7ea")
+		(property "Reference" "S30"
+			(at 93.98 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 93.98 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_Choc:Choc_V1V2_1.00u"
+			(at 93.98 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 93.98 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9d31e1e8-a675-4f40-971a-15c547125034")
+		)
+		(pin "2"
+			(uuid "be3d2d5f-0a74-4554-b8c3-a015ddbbac3f")
+		)
+		(instances
+			(project "FrameworkThinkpadSharedSplit"
+				(path "/0d5c4543-d5fb-491b-bc04-65254edf3078"
+					(reference "S30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Diode")
 		(at 251.46 105.41 90)
 		(unit 1)
@@ -16477,7 +18940,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d49d2f0f-862d-4274-be95-2a33c4551aad")
-		(property "Reference" "D61"
+		(property "Reference" "D68"
 			(at 254 104.1399 90)
 			(effects
 				(font
@@ -16549,7 +19012,7 @@
 		(instances
 			(project "FrameworkThinkpadSharedSplit"
 				(path "/0d5c4543-d5fb-491b-bc04-65254edf3078"
-					(reference "D61")
+					(reference "D68")
 					(unit 1)
 				)
 			)
@@ -16633,7 +19096,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d7f2948a-b26a-48e7-bc38-f8d4104266e7")
-		(property "Reference" "S44"
+		(property "Reference" "S51"
 			(at 214.63 53.34 0)
 			(effects
 				(font
@@ -16685,7 +19148,7 @@
 		(instances
 			(project "FrameworkThinkpadSharedSplit"
 				(path "/0d5c4543-d5fb-491b-bc04-65254edf3078"
-					(reference "S44")
+					(reference "S51")
 					(unit 1)
 				)
 			)
@@ -16769,7 +19232,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d843ba1c-543b-4bfd-84d9-2e287fe04962")
-		(property "Reference" "S64"
+		(property "Reference" "S71"
 			(at 203.2 110.49 0)
 			(effects
 				(font
@@ -16821,7 +19284,7 @@
 		(instances
 			(project "FrameworkThinkpadSharedSplit"
 				(path "/0d5c4543-d5fb-491b-bc04-65254edf3078"
-					(reference "S64")
+					(reference "S71")
 					(unit 1)
 				)
 			)
@@ -16905,7 +19368,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d95c3a76-59f4-43bb-a1a0-d7623811fe1a")
-		(property "Reference" "S43"
+		(property "Reference" "S50"
 			(at 203.2 53.34 0)
 			(effects
 				(font
@@ -16957,7 +19420,7 @@
 		(instances
 			(project "FrameworkThinkpadSharedSplit"
 				(path "/0d5c4543-d5fb-491b-bc04-65254edf3078"
-					(reference "S43")
+					(reference "S50")
 					(unit 1)
 				)
 			)
@@ -16973,7 +19436,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d9d25c34-0a90-4c88-b830-a41e8271f31a")
-		(property "Reference" "D57"
+		(property "Reference" "D64"
 			(at 208.28 104.1399 90)
 			(effects
 				(font
@@ -17045,40 +19508,40 @@
 		(instances
 			(project "FrameworkThinkpadSharedSplit"
 				(path "/0d5c4543-d5fb-491b-bc04-65254edf3078"
-					(reference "D57")
+					(reference "D64")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x05_Socket")
-		(at 53.34 60.96 180)
+		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(at 270.51 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "dd6d7630-a176-4c65-8e53-1b8b5fab030a")
-		(property "Reference" "J3"
-			(at 53.975 50.8 0)
+		(uuid "dd07a75a-24f7-48f1-844d-b9c3666f6c9a")
+		(property "Reference" "S77"
+			(at 270.51 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Conn_01x05_Socket"
-			(at 53.975 53.34 0)
+		(property "Value" "Keyswitch"
+			(at 270.51 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53048-0510_1x05_P1.25mm_Horizontal"
-			(at 53.34 60.96 0)
+		(property "Footprint" "ScottoKeebs_Choc:Choc_V1V2_1.00u"
+			(at 270.51 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17087,7 +19550,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 53.34 60.96 0)
+			(at 270.51 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17095,34 +19558,113 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x05, script generated"
-			(at 53.34 60.96 0)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 270.51 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "3"
-			(uuid "a48f8e09-0dcc-4cfb-ac33-e3cdaaf90287")
-		)
-		(pin "4"
-			(uuid "700a9ec0-07ce-414e-99e9-b39d67dcd9b2")
-		)
-		(pin "2"
-			(uuid "a0f211ab-3e3e-421b-b3d9-4ad58b94b969")
-		)
-		(pin "5"
-			(uuid "c2ef598d-441a-4169-96ab-fd799ca8de0d")
 		)
 		(pin "1"
-			(uuid "2be91fc5-8ac2-40b0-b561-c67e6b820c5a")
+			(uuid "28bd869a-2de9-4ae5-ac31-3b82b837e4b3")
+		)
+		(pin "2"
+			(uuid "cdcca8b4-040a-43a6-be2d-9e14f0085024")
 		)
 		(instances
 			(project "FrameworkThinkpadSharedSplit"
 				(path "/0d5c4543-d5fb-491b-bc04-65254edf3078"
-					(reference "J3")
+					(reference "S77")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Diode")
+		(at 240.03 124.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de865243-ed33-4015-97b5-050637e1e6cd")
+		(property "Reference" "D74"
+			(at 242.57 123.1899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Diode"
+			(at 242.57 125.7299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
+			(at 240.03 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
+			(at 240.03 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 240.03 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 240.03 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2d2ad396-00e4-4004-af99-2a3110d60cc3")
+		)
+		(pin "2"
+			(uuid "e89acb87-da7a-4c96-b8f4-62f9a3bcb3da")
+		)
+		(instances
+			(project "FrameworkThinkpadSharedSplit"
+				(path "/0d5c4543-d5fb-491b-bc04-65254edf3078"
+					(reference "D74")
 					(unit 1)
 				)
 			)
@@ -17138,7 +19680,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dfb1efdd-682b-468b-9de6-fc31ed1974c8")
-		(property "Reference" "D43"
+		(property "Reference" "D50"
 			(at 208.28 66.0399 90)
 			(effects
 				(font
@@ -17210,7 +19752,7 @@
 		(instances
 			(project "FrameworkThinkpadSharedSplit"
 				(path "/0d5c4543-d5fb-491b-bc04-65254edf3078"
-					(reference "D43")
+					(reference "D50")
 					(unit 1)
 				)
 			)
@@ -17286,7 +19828,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 73.66 204.47 90)
+		(at 74.93 231.14 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17295,7 +19837,7 @@
 		(fields_autoplaced yes)
 		(uuid "e2545d6a-29cc-4567-9d21-ec670445457c")
 		(property "Reference" "TP6"
-			(at 70.358 199.39 90)
+			(at 71.628 226.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17303,7 +19845,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 70.358 201.93 90)
+			(at 71.628 228.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17311,7 +19853,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm"
-			(at 73.66 199.39 0)
+			(at 74.93 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17320,7 +19862,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 73.66 199.39 0)
+			(at 74.93 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17329,7 +19871,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 73.66 204.47 0)
+			(at 74.93 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17447,7 +19989,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e4645d72-8082-4f52-aa90-94d9ca1ba506")
-		(property "Reference" "D66"
+		(property "Reference" "D73"
 			(at 231.14 123.1899 90)
 			(effects
 				(font
@@ -17519,7 +20061,95 @@
 		(instances
 			(project "FrameworkThinkpadSharedSplit"
 				(path "/0d5c4543-d5fb-491b-bc04-65254edf3078"
-					(reference "D66")
+					(reference "D73")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Diode")
+		(at 130.81 143.51 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e513ddae-6017-4ae5-b827-2cce53699010")
+		(property "Reference" "D40"
+			(at 133.35 142.2399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Diode"
+			(at 133.35 144.7799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
+			(at 130.81 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
+			(at 130.81 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 130.81 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 130.81 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9d2e7bf2-7898-4145-8218-249107c37a99")
+		)
+		(pin "2"
+			(uuid "231b4b7b-9ad1-4557-9daa-84cf30f3d61c")
+		)
+		(instances
+			(project "FrameworkThinkpadSharedSplit"
+				(path "/0d5c4543-d5fb-491b-bc04-65254edf3078"
+					(reference "D40")
 					(unit 1)
 				)
 			)
@@ -17623,7 +20253,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e5d1de48-0df9-488a-8fb8-4a378bc57ef5")
-		(property "Reference" "D30"
+		(property "Reference" "D83"
 			(at 278.4475 160.02 0)
 			(effects
 				(font
@@ -17675,7 +20305,7 @@
 		(instances
 			(project "FrameworkThinkpadSharedSplit"
 				(path "/0d5c4543-d5fb-491b-bc04-65254edf3078"
-					(reference "D30")
+					(reference "D83")
 					(unit 1)
 				)
 			)
@@ -17691,7 +20321,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e6368882-7f9b-43e8-ad42-3998194192ba")
-		(property "Reference" "D49"
+		(property "Reference" "D56"
 			(at 275.59 66.0399 90)
 			(effects
 				(font
@@ -17763,7 +20393,7 @@
 		(instances
 			(project "FrameworkThinkpadSharedSplit"
 				(path "/0d5c4543-d5fb-491b-bc04-65254edf3078"
-					(reference "D49")
+					(reference "D56")
 					(unit 1)
 				)
 			)
@@ -17927,7 +20557,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 73.66 207.01 90)
+		(at 74.93 233.68 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17936,7 +20566,7 @@
 		(fields_autoplaced yes)
 		(uuid "e8b9711f-7ef2-4993-a533-e3e7c87299b7")
 		(property "Reference" "TP7"
-			(at 70.358 201.93 90)
+			(at 71.628 228.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17944,7 +20574,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 70.358 204.47 90)
+			(at 71.628 231.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17952,7 +20582,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm"
-			(at 73.66 201.93 0)
+			(at 74.93 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17961,7 +20591,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 73.66 201.93 0)
+			(at 74.93 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17970,7 +20600,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 73.66 207.01 0)
+			(at 74.93 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18000,7 +20630,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e9a29462-b65e-400f-926d-bcfd3d147f80")
-		(property "Reference" "D32"
+		(property "Reference" "D85"
 			(at 278.4475 180.34 0)
 			(effects
 				(font
@@ -18052,7 +20682,7 @@
 		(instances
 			(project "FrameworkThinkpadSharedSplit"
 				(path "/0d5c4543-d5fb-491b-bc04-65254edf3078"
-					(reference "D32")
+					(reference "D85")
 					(unit 1)
 				)
 			)
@@ -18196,7 +20826,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 73.66 212.09 90)
+		(at 74.93 238.76 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18205,7 +20835,7 @@
 		(fields_autoplaced yes)
 		(uuid "ebe5c999-3d39-45ba-86c1-93a38e1988a5")
 		(property "Reference" "TP9"
-			(at 70.358 207.01 90)
+			(at 71.628 233.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18213,7 +20843,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 70.358 209.55 90)
+			(at 71.628 236.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18221,7 +20851,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm"
-			(at 73.66 207.01 0)
+			(at 74.93 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18230,7 +20860,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 73.66 207.01 0)
+			(at 74.93 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18239,7 +20869,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 73.66 212.09 0)
+			(at 74.93 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18269,7 +20899,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ed040550-b1fa-4b35-8b7f-888218808932")
-		(property "Reference" "S37"
+		(property "Reference" "S44"
 			(at 214.63 34.29 0)
 			(effects
 				(font
@@ -18321,7 +20951,7 @@
 		(instances
 			(project "FrameworkThinkpadSharedSplit"
 				(path "/0d5c4543-d5fb-491b-bc04-65254edf3078"
-					(reference "S37")
+					(reference "S44")
 					(unit 1)
 				)
 			)
@@ -18416,6 +21046,94 @@
 		)
 	)
 	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Diode")
+		(at 251.46 124.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f0d931e2-46f2-409f-9c61-a098facc95d4")
+		(property "Reference" "D75"
+			(at 254 123.1899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Diode"
+			(at 254 125.7299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
+			(at 251.46 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
+			(at 251.46 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 251.46 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 251.46 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "204c265a-b780-4946-a8f3-3115d7a4d948")
+		)
+		(pin "2"
+			(uuid "d84ecab8-762d-4516-a216-4b6491f51d2a")
+		)
+		(instances
+			(project "FrameworkThinkpadSharedSplit"
+				(path "/0d5c4543-d5fb-491b-bc04-65254edf3078"
+					(reference "D75")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
 		(at 226.06 80.01 0)
 		(unit 1)
@@ -18425,7 +21143,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f3a2a109-d7d6-4191-9965-5dcfb784e97e")
-		(property "Reference" "S52"
+		(property "Reference" "S59"
 			(at 226.06 72.39 0)
 			(effects
 				(font
@@ -18477,7 +21195,7 @@
 		(instances
 			(project "FrameworkThinkpadSharedSplit"
 				(path "/0d5c4543-d5fb-491b-bc04-65254edf3078"
-					(reference "S52")
+					(reference "S59")
 					(unit 1)
 				)
 			)
@@ -18661,7 +21379,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 73.66 209.55 90)
+		(at 74.93 236.22 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18670,7 +21388,7 @@
 		(fields_autoplaced yes)
 		(uuid "fa04e24c-96a6-4dc3-bcc5-df526468324a")
 		(property "Reference" "TP8"
-			(at 70.358 204.47 90)
+			(at 71.628 231.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18678,7 +21396,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 70.358 207.01 90)
+			(at 71.628 233.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18686,7 +21404,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm"
-			(at 73.66 204.47 0)
+			(at 74.93 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18695,7 +21413,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 73.66 204.47 0)
+			(at 74.93 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18704,7 +21422,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 73.66 209.55 0)
+			(at 74.93 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18734,7 +21452,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fa746015-5280-4c75-aa02-36b56bdd0613")
-		(property "Reference" "S65"
+		(property "Reference" "S72"
 			(at 214.63 110.49 0)
 			(effects
 				(font
@@ -18786,7 +21504,7 @@
 		(instances
 			(project "FrameworkThinkpadSharedSplit"
 				(path "/0d5c4543-d5fb-491b-bc04-65254edf3078"
-					(reference "S65")
+					(reference "S72")
 					(unit 1)
 				)
 			)
@@ -18881,83 +21599,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x05_Socket")
-		(at 190.5 60.96 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fc167821-0185-4979-ae61-b176b9430292")
-		(property "Reference" "J2"
-			(at 191.135 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x05_Socket"
-			(at 191.135 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53048-0510_1x05_P1.25mm_Horizontal"
-			(at 190.5 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 190.5 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x05, script generated"
-			(at 190.5 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "90d8692d-76ed-489a-8b29-a8ee5c8bd451")
-		)
-		(pin "4"
-			(uuid "b66b252c-2449-4e3b-9f39-81aedc532079")
-		)
-		(pin "2"
-			(uuid "5d170d7b-b2f2-4600-a6e7-7c9ae560b96b")
-		)
-		(pin "5"
-			(uuid "c8a01b35-2edf-48a4-9b47-c7e348329129")
-		)
-		(pin "1"
-			(uuid "bde8803e-a0b9-4ac3-9b0b-463c80ab1a06")
-		)
-		(instances
-			(project "FrameworkThinkpadSharedSplit"
-				(path "/0d5c4543-d5fb-491b-bc04-65254edf3078"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
 		(at 128.27 99.06 0)
 		(unit 1)
@@ -19020,6 +21661,86 @@
 			(project "FrameworkThinkpadSharedSplit"
 				(path "/0d5c4543-d5fb-491b-bc04-65254edf3078"
 					(reference "S26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x06_Socket")
+		(at 53.34 63.5 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd9192d3-767b-45eb-8011-28f034dc7aeb")
+		(property "Reference" "J13"
+			(at 53.975 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x06_Socket"
+			(at 53.975 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53048-0610_1x06_P1.25mm_Horizontal"
+			(at 53.34 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x06, script generated"
+			(at 53.34 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "b1c58947-703a-423e-94b0-5d80263c6e16")
+		)
+		(pin "2"
+			(uuid "30904a4c-a728-40fb-92ac-2a9c507ed4f0")
+		)
+		(pin "1"
+			(uuid "d652e07a-06bd-4354-a669-c3644bc301ed")
+		)
+		(pin "4"
+			(uuid "2b35e0f9-4dae-47b2-8134-d2f9108d0a25")
+		)
+		(pin "5"
+			(uuid "7c3d46f8-5e87-4428-9f1b-228100ff5ea2")
+		)
+		(pin "6"
+			(uuid "3a3abc2b-2ee6-4323-86f3-46374b328655")
+		)
+		(instances
+			(project "FrameworkThinkpadSharedSplit"
+				(path "/0d5c4543-d5fb-491b-bc04-65254edf3078"
+					(reference "J13")
 					(unit 1)
 				)
 			)
